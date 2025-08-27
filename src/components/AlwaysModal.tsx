@@ -25,7 +25,7 @@ const AlwaysModal: React.FC<AlwaysModalProps> = ({ isOpen, onClose }) => {
             <div className="flex items-center space-x-4">
               <div className="w-20 h-12 bg-gray-400 rounded-lg flex items-center justify-center">
                 <img 
-                  src="https://cdn-thumbs.imagevenue.com/a4/6b/4a/ME1B0ZBL_t.png"
+                  src="/assets/images/JKCLogo.PNG"
                   alt="JKC Logo"
                   className="h-8 w-auto object-contain"
                 />

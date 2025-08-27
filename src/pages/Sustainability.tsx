@@ -88,7 +88,7 @@ const Sustainability: React.FC = () => {
           <div className="relative text-white p-8 rounded-lg overflow-hidden">
             <div className="absolute inset-0 opacity-10">
               <img 
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
+                src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
                 alt="People background"
                 className="w-full h-full object-cover"
               />

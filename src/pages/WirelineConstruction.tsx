@@ -13,7 +13,7 @@ const WirelineConstruction: React.FC = () => {
       <section className="relative pt-32 pb-20 px-6">
         <div className="absolute inset-0">
           <img 
-            src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+            src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080"
             alt="Wireline construction work"
             className="w-full h-full object-cover"
           />
@@ -49,7 +49,7 @@ const WirelineConstruction: React.FC = () => {
           </div>
           <div className="relative">
             <img 
-              src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" 
+              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
               alt="Wireline construction work"
               className="rounded-lg shadow-xl w-full h-96 object-cover"
             />

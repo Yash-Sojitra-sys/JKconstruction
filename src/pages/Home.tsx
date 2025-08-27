@@ -25,7 +25,7 @@ const Home: React.FC = () => {
           <source src="https://res.cloudinary.com/dos3cln9d/video/upload/v1750507839/construction_site_timelapse_vc7h3i.mp4" type="video/mp4" />
           {/* Fallback image if video fails to load */}
           <img 
-            src="https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
+            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080" 
             alt="Construction site aerial view"
             className="absolute inset-0 w-full h-full object-cover"
           />
@@ -75,7 +75,7 @@ const Home: React.FC = () => {
       <section className="relative py-20">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-600/80"></div>
         <img 
-          src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
         <div className="relative z-10 px-2 sm:px-4 lg:px-6">

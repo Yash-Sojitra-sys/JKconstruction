@@ -28,7 +28,7 @@ const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
               <img 
-                src="https://cdn-thumbs.imagevenue.com/a4/6b/4a/ME1B0ZBL_t.png"
+                src="/assets/images/JKCLogo.PNG"
                 alt="JKC Logo"
                 className="h-20 w-auto object-contain"
               />
@@ -58,7 +58,7 @@ const Header: React.FC = () => {
               {/* Logo only - no text */}
               <div className="bg-white p-2 rounded-lg shadow-sm border border-gray-100">
                 <img 
-                  src="https://cdn-thumbs.imagevenue.com/a4/6b/4a/ME1B0ZBL_t.png"
+                  src="/assets/images/JKCLogo.PNG"
                   alt="JKC Logo"
                   className="h-12 w-auto object-contain"
                 />
