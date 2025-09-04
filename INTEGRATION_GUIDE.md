@@ -1,6 +1,4 @@
-# JKC Construction - Backend Integration Complete
-
-## 🎉 Integration Summary
+# JKC Construction - Backend Integration# 🔗 Connect Backend with Vercel - Complete Guide
 
 The JKC Construction website has been successfully connected to a Node.js/Express backend with the following features:
 
