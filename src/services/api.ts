@@ -98,11 +98,16 @@ class ApiService {
   }
 
   // Join talent network
-  async submitTalentNetwork(data: TalentNetworkData): Promise<ApiResponse<{ message: string }>> {
+  async joinTalentNetwork(data: TalentNetworkData): Promise<ApiResponse<{ message: string }>> {
     return this.makeRequest('/talent-network', {
       method: 'POST',
       body: JSON.stringify(data),
     });
+  }
+
+  // Alias for backward compatibility
+  async submitTalentNetwork(data: TalentNetworkData): Promise<ApiResponse<{ message: string }>> {
+    return this.joinTalentNetwork(data);
   }
 
   // Admin authentication functions
