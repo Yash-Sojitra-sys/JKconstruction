@@ -311,7 +311,7 @@ const Admin: React.FC = () => {
   };
 
   const handleJKCClick = () => {
-    window.open('https://stirring-hotteok-f14abc.netlify.app/', '_blank');
+    window.open('https://jk-construction.vercel.app/', '_blank');
   };
 
   const handlePrivacyClick = () => {
