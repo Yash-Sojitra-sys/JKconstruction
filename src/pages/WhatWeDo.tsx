@@ -2,7 +2,7 @@ import React from 'react';
 import { IMAGES } from '../constants/images';
 import Header from '../components/Header';
 import ConnectionSection from '../components/ConnectionSection';
-import ProjectsSection from '../components/ProjectsSection';
+import ServicesSection from '../components/ServicesSection';
 import Footer from '../components/Footer';
 
 const WhatWeDo: React.FC = () => {
@@ -138,7 +138,7 @@ const WhatWeDo: React.FC = () => {
       </section>
 
       <ConnectionSection />
-      <ProjectsSection />
+      <ServicesSection />
       <Footer />
     </div>
   );

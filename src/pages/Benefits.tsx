@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IMAGES } from '../constants/images';
 import { Shield, Heart, DollarSign, PiggyBank, Baby, BookOpen, CreditCard, Zap, Phone, ChevronRight, Monitor, Users, Calendar, ShoppingBag } from 'lucide-react';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
+import ServicesSection from '../components/ServicesSection';
 
 const Benefits: React.FC = () => {
   const [currentHealthSlide, setCurrentHealthSlide] = useState(0);
@@ -146,6 +146,7 @@ const Benefits: React.FC = () => {
       <Header isTransparent={true} />
       
       {/* Hero Section */}
+      <ServicesSection />
       <section className="relative h-[70vh] flex items-center justify-center px-0">
         <div className="absolute inset-0">
           <img 

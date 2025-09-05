@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import ConnectionSection from '../components/ConnectionSection';
-import ProjectsSection from '../components/ProjectsSection';
+import ServicesSection from '../components/ServicesSection';
 import Footer from '../components/Footer';
 import { IMAGES } from '../constants/images';
 
@@ -68,7 +68,7 @@ const Fulfillment: React.FC = () => {
       <div className="-mt-16">
         <ConnectionSection />
       </div>
-      <ProjectsSection />
+      <ServicesSection />
       <Footer />
     </div>
   );

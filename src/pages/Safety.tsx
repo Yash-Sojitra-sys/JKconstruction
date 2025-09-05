@@ -4,7 +4,7 @@ import { IMAGES } from '../constants/images';
 import Header from '../components/Header';
 import AlwaysModal from '../components/AlwaysModal';
 import ConnectionSection from '../components/ConnectionSection';
-import ProjectsSection from '../components/ProjectsSection';
+import ServicesSection from '../components/ServicesSection';
 import Footer from '../components/Footer';
 
 const Safety: React.FC = () => {
@@ -407,7 +407,7 @@ const Safety: React.FC = () => {
       )}
 
       <ConnectionSection />
-      <ProjectsSection />
+      <ServicesSection />
       <Footer />
     </div>
   );
