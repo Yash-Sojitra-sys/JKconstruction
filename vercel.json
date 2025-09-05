@@ -6,7 +6,7 @@
     }
   ],
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "project/dist",
   "framework": "vite",
   "installCommand": "npm ci"
 }
