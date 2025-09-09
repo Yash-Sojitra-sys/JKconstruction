@@ -51,7 +51,7 @@ const ConnectionSection = () => {
            The reach of our expansive group of companies is built on our deep relationships with leading developers and government bodies. Dedicated to safety and quality, we have the partners to meet the needs of every client, no matter the scope or deadline. Our innovation ensures solutions that exceed expectations.
           </p>
           <button 
-            onClick={() => handleNavigationClick('/our-family-of-companies')}
+            onClick={() => handleNavigationClick('/our-company')}
             className="bg-blue-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors inline-flex whitespace-nowrap text-sm sm:text-base"
           >
             <span>Our Family of Companies</span>
