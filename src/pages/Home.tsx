@@ -97,7 +97,10 @@ const Home: React.FC = () => {
               <p className="text-base sm:text-lg leading-relaxed opacity-90">
                 Embracing a common vision of Connecting People, JKC proudly builds infrastructure and partnerships nationwide. Our engaged workforce is key to meeting the needs of our customers by bringing and keeping communities connected. We live by our values at JKC. They guide our interactions with each other, with our customers, and with the communities where we live and work.
               </p>
-              <button className="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-full hover:bg-green-600 transition-colors text-sm sm:text-base">
+              <button 
+                onClick={() => navigate('/about-us')}
+                className="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-full hover:bg-green-600 transition-colors text-sm sm:text-base"
+              >
                 About Us
               </button>
             </div>

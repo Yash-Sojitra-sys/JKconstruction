@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
+import { ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { IMAGES } from '../constants/images';
 import { Shield, Heart, DollarSign, PiggyBank, Baby, BookOpen, CreditCard, Zap, Phone, ChevronRight, Monitor, Users, Calendar, ShoppingBag } from 'lucide-react';
 import Header from '../components/Header';
 import ServicesSection from '../components/ServicesSection';
 
 const Benefits: React.FC = () => {
+  const navigate = useNavigate();
   const [currentHealthSlide, setCurrentHealthSlide] = useState(0);
   const [currentFinancialSlide, setCurrentFinancialSlide] = useState(0);
   const [currentLifestyleSlide, setCurrentLifestyleSlide] = useState(0);
@@ -389,7 +392,7 @@ const Benefits: React.FC = () => {
             <p className="text-xl mb-8">Join Our Talent Network!</p>
             <div className="flex justify-center">
               <button 
-                onClick={() => window.open('/talent-network', '_blank')}
+                onClick={() => navigate('/talent-network')}
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold text-base transition-colors flex items-center gap-2"
               >
                 Connect with us!

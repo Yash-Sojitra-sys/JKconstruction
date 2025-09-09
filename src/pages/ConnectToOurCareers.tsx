@@ -1,9 +1,12 @@
 import React from 'react';
+import { ChevronRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { IMAGES } from '../constants/images';
 
 const ConnectToOurCareers: React.FC = () => {
+  const navigate = useNavigate();
   const jobs = [
     {
       id: 1,
@@ -178,10 +181,11 @@ const ConnectToOurCareers: React.FC = () => {
             <p className="text-xl mb-8">Join Our Talent Network!</p>
             <div className="flex justify-center">
               <button 
-                onClick={() => window.open('/talent-network', '_blank')}
+                onClick={() => navigate('/talent-network')}
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold text-base transition-colors flex items-center gap-2"
               >
                 Connect with us!
+                <ChevronRight className="w-4 h-4" />
               </button>
             </div>
           </div>
