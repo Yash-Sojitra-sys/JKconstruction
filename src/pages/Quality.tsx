@@ -31,7 +31,7 @@ const Quality: React.FC = () => {
           <div className="px-20 py-12 flex items-center">
             <div>
               <div className="mb-6"></div>
-              <h2 className="text-4xl md:text-5xl font-bold text-blue-600 leading-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-600 leading-tight">
                 At JKC, We<br/>
                 Prioritize Doing<br/>
                 Things the<br/>
