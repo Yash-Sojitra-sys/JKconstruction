@@ -70,7 +70,10 @@ const Home: React.FC = () => {
                 Jay Krishna Construction (JKC) is a leading provider of specialty contracting services to the infrastructure and construction industries throughout India. We supply the single most critical resource construction projects need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale. Our talented workforce of over 5,000 employees provides a wide array of specialty services including program management; planning; engineering and design; construction; maintenance; and fulfillment services for residential, commercial, and infrastructure projects.
               </p>
             </div>
-            <button className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors text-sm sm:text-base">
+            <button 
+              onClick={() => navigate('/our-company')}
+              className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors text-sm sm:text-base"
+            >
               <span>LEARN ABOUT OUR FAMILY OF COMPANIES</span>
               <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
