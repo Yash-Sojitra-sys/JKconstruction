@@ -159,44 +159,6 @@ const Safety: React.FC = () => {
         </div>
       </section>
 
-      {/* Training Section */}
-      <section>
-        <div className="grid md:grid-cols-2 gap-0">
-          <div className="bg-white flex items-center">
-            <div className="px-20 py-6">
-              <h3 className="text-3xl font-bold text-blue-600 mb-5">Training</h3>
-              <p className="text-gray-700 mb-5 text-base leading-relaxed">
-                Our employees are actively engaged in training, reporting and auditing safety programs and protocols daily. Employee training is robust and begins at their onboarding.
-              </p>
-              <ul className="text-gray-700 space-y-2 mb-6 text-base">
-                <li>• New Hire Safety Orientation</li>
-                <li>• Task and job specific documented safety qualification training</li>
-                <li>• 3rd party safety certifications</li>
-                <li>• Field mentoring with Qualified Person</li>
-                <li>• Ongoing evaluation and continued education as identified via recurring documented field visits (JSO, Gatecheck, etc.)</li>
-              </ul>
-              <p className="text-gray-700 mb-3 font-semibold text-base">
-                Job-focused safety training, for all construction and infrastructure job functions and work types:
-              </p>
-              <ul className="text-gray-700 space-y-2 text-base">
-                <li>• Emergency work (Line strikes, natural disaster recovery, etc.)</li>
-                <li>• Working around utility and power poles</li>
-                <li>• Fire prevention</li>
-                <li>• Stop work authority (for example: No reprisal policy)</li>
-                <li>• Aerial construction</li>
-                <li>• Underground construction</li>
-              </ul>
-            </div>
-          </div>
-          <div className="relative">
-            <img 
-              src={IMAGES.GALLERY.CONSTRUCTION_3}
-              alt="Safety training with workers on utility poles"
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </section>
 
       {/* Driver Safety Program through OSHA Section */}
       <section>
