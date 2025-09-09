@@ -38,7 +38,7 @@ const ConnectionSection = () => {
             Employees are our most important resource. We bring infrastructure to households and businesses alike. Each day, our people and teams work together to achieve incredible things, safely and with the highest standard, that positively impact the communities where we live and work.
           </p>
           <button 
-            onClick={() => handleNavigationClick('/people')}
+            onClick={() => handleNavigationClick('/life-at-jkc')}
             className="bg-blue-600 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors inline-flex whitespace-nowrap text-sm sm:text-base"
           >
             <span>People</span>
