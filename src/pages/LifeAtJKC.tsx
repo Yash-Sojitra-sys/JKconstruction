@@ -48,8 +48,8 @@ const LifeAtJKC: React.FC = () => {
               <div>
                 <h2 className="text-4xl font-bold text-blue-600 mb-6">What we stand for</h2>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                  Our nationwide network of more than 15,000 employees shares a common vision of 
-                  connecting America. Our ability to deliver to our customers and reconnect communities 
+                  Our nationwide network of more than 5,000 employees shares a common vision of 
+                  connecting Gujarat, India. Our ability to deliver to our customers and reconnect communities 
                   online relies on our engaged workforce. The values we hold at JKC define our culture.
                 </p>
                 <p className="text-gray-700 mb-6 text-lg leading-relaxed">
@@ -190,7 +190,7 @@ const LifeAtJKC: React.FC = () => {
               <h2 className="text-4xl font-bold text-blue-600 mb-6">Where We Operate</h2>
               <p className="text-gray-700 mb-6 text-lg leading-relaxed">
                 Not only do we have over 40 operating divisions and over 500 offices and warehouses 
-                located across the US, JKC has adopted a hybrid work model for many positions, which 
+                located across Gujarat, India, JKC has adopted a hybrid work model for many positions, which 
                 means you can take your job anywhere, coast to coast.
               </p>
             </div>

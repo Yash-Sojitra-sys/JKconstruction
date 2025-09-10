@@ -215,7 +215,7 @@ const UploadResume: React.FC = () => {
               
               <div className="mb-4">
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Are you legally authorized to work in the US for any employer? *
+                  Are you legally authorized to work in Gujarat, India for any employer? *
                 </label>
                 <div className="space-y-2">
                   <label className="flex items-center">

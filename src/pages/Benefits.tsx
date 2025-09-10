@@ -2,9 +2,10 @@ import React, { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { IMAGES } from '../constants/images';
-import { Shield, Heart, DollarSign, PiggyBank, Baby, BookOpen, CreditCard, Zap, Phone, ChevronRight, Monitor, Users, Calendar, ShoppingBag } from 'lucide-react';
+import { Shield, Heart, DollarSign, PiggyBank, Baby, BookOpen, CreditCard, Zap, Phone, Monitor, Users, Calendar, ShoppingBag } from 'lucide-react';
 import Header from '../components/Header';
 import ServicesSection from '../components/ServicesSection';
+import Footer from '../components/Footer';
 
 const Benefits: React.FC = () => {
   const navigate = useNavigate();
@@ -177,7 +178,7 @@ const Benefits: React.FC = () => {
             Enjoy a full suite of exceptional first-class benefits as a member of the JKC family.
           </h2>
           <p className="text-gray-700 text-base leading-tight">
-            Serving the nation from more than 500 field offices with a talented workforce of over 15,000 employees, we remain unparalleled in scope and scale.
+            Serving Gujarat, India from more than 500 field offices with a talented workforce of over 5,000 employees, we remain unparalleled in scope and scale.
           </p>
         </div>
       </section>

@@ -32,7 +32,7 @@ const ProjectManagement: React.FC = () => {
             <div className="px-20 py-20 pb-24">
               <h2 className="text-5xl font-bold text-blue-600 mb-6">Turnkey Project Management</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                From the smallest town to the largest city, we manage telecommunications projects that connect America. We engineer all types of networks from fiber to 5G, perform locates prior to excavation, obtain permits before work begins, and construct and maintain high quality and dependable networks.
+                From the smallest town to the largest city, we manage telecommunications projects that connect Gujarat, India. We engineer all types of networks from fiber to 5G, perform locates prior to excavation, obtain permits before work begins, and construct and maintain high quality and dependable networks.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 With broad expertise in telecommunications construction, we are a preferred partner for our customers. Our local presence, national footprint, and extensive experience enables JKC to reliably manage complex construction projects. Our local offices possess ground level knowledge of the construction work methods that are crucial to success.

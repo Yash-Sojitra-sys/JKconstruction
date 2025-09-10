@@ -34,13 +34,13 @@ const LocatingAndSUE: React.FC = () => {
               <h2 className="text-5xl font-bold text-blue-600 mb-2">Locating & SUE</h2>
               <p className="text-2xl font-medium text-blue-600 mb-6">(SUB UTILITY ENQUIRY)</p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
-                Our locating services provide the skilled workforce to ensure underground infrastructure is protected when excavation activity occurs. JKC's employees utilize modern technology to deliver timely, reliable, and accurate locate services to our clients throughout America.
+                Our locating services provide the skilled workforce to ensure underground infrastructure is protected when excavation activity occurs. JKC's employees utilize modern technology to deliver timely, reliable, and accurate locate services to our clients throughout Gujarat, India.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 We complete millions of successful locates each year and include proper documentation to help reduce underground plant damages. Our Enhanced Positive Response process (EPR) helps excavators know where utilities are buried before construction begins. We also offer specialized services which include quality audit programs, facility documentation, standby services, risk assessment, leak surveys and meter inspections. Our suite of services enables our nation's infrastructure to remain healthy and sustainable into the future.
               </p>
               <p className="text-gray-700 text-lg leading-relaxed">
-                Every day, our locators work across America to achieve safer excavations and assist in reducing damages.
+                Every day, our locators work across Gujarat, India to achieve safer excavations and assist in reducing damages.
               </p>
             </div>
           </div>
