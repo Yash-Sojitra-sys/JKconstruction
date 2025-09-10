@@ -72,6 +72,11 @@ const TalentNetwork: React.FC = () => {
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       setResumeFile(e.target.files[0]);
+      // Clear resume error when file is selected
+      if (errors['resume']) {
+        setErrors(prev => ({ ...prev, resume: false }));
+      }
+      setSubmitError('');
     }
   };
 
@@ -91,6 +96,13 @@ const TalentNetwork: React.FC = () => {
 
     if (formData.areasOfInterest.length === 0) {
       newErrors['areasOfInterest'] = true;
+    }
+
+    // Check if resume is uploaded
+    if (!resumeFile) {
+      newErrors['resume'] = true;
+      setSubmitError('Please upload your resume before submitting.');
+      return;
     }
 
     if (Object.keys(newErrors).length > 0) {
@@ -219,7 +231,7 @@ const TalentNetwork: React.FC = () => {
       <Header isTransparent={false} />
       
       {/* Hero Section */}
-      <section className="bg-white py-16">
+      <section className="bg-white py-16 mt-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Join Our Talent Network</h1>
           <p className="text-xl text-gray-600">Get Started!</p>
@@ -236,10 +248,12 @@ const TalentNetwork: React.FC = () => {
               <div>
                 <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center">Upload Resume</h2>
                 <div className="mb-6">
-                  <h3 className="text-lg font-bold text-gray-900 mb-4 text-left">Upload Resume</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-4 text-left">Upload Resume *</h3>
                   <div className="flex items-center gap-4">
                     <label htmlFor="resume-upload" className="cursor-pointer">
-                      <span className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition-colors inline-block">
+                      <span className={`px-6 py-2 rounded transition-colors inline-block ${
+                        errors['resume'] ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700'
+                      } text-white`}>
                         Choose File
                       </span>
                       <input
@@ -248,12 +262,18 @@ const TalentNetwork: React.FC = () => {
                         className="hidden"
                         accept=".pdf,.doc,.docx"
                         onChange={handleFileChange}
+                        required
                       />
                     </label>
-                    <span className="text-gray-500">
+                    <span className={`${
+                      errors['resume'] ? 'text-red-500' : 'text-gray-500'
+                    }`}>
                       {resumeFile ? resumeFile.name : 'No file chosen'}
                     </span>
                   </div>
+                  {errors['resume'] && (
+                    <p className="text-red-500 text-sm mt-2">Resume upload is required</p>
+                  )}
                 </div>
               </div>
 
