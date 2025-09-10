@@ -27,6 +27,7 @@ const TalentNetwork: React.FC = () => {
   const [submitError, setSubmitError] = useState('');
   const [showErrorModal, setShowErrorModal] = useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const [showResumeModal, setShowResumeModal] = useState(false);
   const [missingFields, setMissingFields] = useState<string[]>([]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
@@ -101,9 +102,10 @@ const TalentNetwork: React.FC = () => {
       newErrors['areasOfInterest'] = true;
     }
 
-    // Check if resume is uploaded
+    // Check if resume is uploaded first (separate validation)
     if (!resumeFile) {
-      newErrors['resume'] = true;
+      setShowResumeModal(true);
+      return;
     }
 
     if (Object.keys(newErrors).length > 0) {
@@ -119,8 +121,7 @@ const TalentNetwork: React.FC = () => {
         zip: 'PIN Code',
         legallyAuthorized: 'Work Authorization',
         ageVerification: 'Age Verification',
-        areasOfInterest: 'Areas of Interest',
-        resume: 'Resume Upload'
+        areasOfInterest: 'Areas of Interest'
       };
       
       const missing = Object.keys(newErrors).map(field => fieldLabels[field] || field);
@@ -541,6 +542,31 @@ const TalentNetwork: React.FC = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Resume Not Uploaded Modal */}
+              {showResumeModal && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                  <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+                    <div className="flex items-center mb-4">
+                      <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center mr-3">
+                        <svg className="w-5 h-5 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900">Resume Not Uploaded</h3>
+                    </div>
+                    <p className="text-gray-600 mb-6">Please upload your resume before submitting your application. Your resume is required to complete the application process.</p>
+                    <div className="flex justify-end">
+                      <button
+                        onClick={() => setShowResumeModal(false)}
+                        className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-orange-700 transition-colors"
+                      >
+                        Upload Resume
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               {/* Error Modal */}
               {showErrorModal && (
