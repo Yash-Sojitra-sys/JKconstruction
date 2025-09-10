@@ -25,6 +25,9 @@ const TalentNetwork: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
   const [submitError, setSubmitError] = useState('');
+  const [showErrorModal, setShowErrorModal] = useState(false);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const [missingFields, setMissingFields] = useState<string[]>([]);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
     const { name, value, type } = e.target;
@@ -101,13 +104,28 @@ const TalentNetwork: React.FC = () => {
     // Check if resume is uploaded
     if (!resumeFile) {
       newErrors['resume'] = true;
-      setSubmitError('Please upload your resume before submitting.');
-      return;
     }
 
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
-      setSubmitError('Please fill in all required fields.');
+      
+      // Create list of missing field names for the popup
+      const fieldLabels: {[key: string]: string} = {
+        firstName: 'First Name',
+        lastName: 'Last Name',
+        email: 'Email',
+        city: 'City',
+        state: 'State',
+        zip: 'PIN Code',
+        legallyAuthorized: 'Work Authorization',
+        ageVerification: 'Age Verification',
+        areasOfInterest: 'Areas of Interest',
+        resume: 'Resume Upload'
+      };
+      
+      const missing = Object.keys(newErrors).map(field => fieldLabels[field] || field);
+      setMissingFields(missing);
+      setShowErrorModal(true);
       return;
     }
 
@@ -152,6 +170,7 @@ const TalentNetwork: React.FC = () => {
 
       if (response.success) {
         setSubmitMessage(response.message || 'Thank you for your interest! Your application has been received.');
+        setShowSuccessModal(true);
         // Reset form
         setFormData({
           firstName: '',
@@ -168,6 +187,7 @@ const TalentNetwork: React.FC = () => {
           agreeToShare: false
         });
         setResumeFile(null);
+        setErrors({});
       } else {
         setSubmitError(response.message || 'Failed to submit application. Please try again.');
       }
@@ -175,6 +195,7 @@ const TalentNetwork: React.FC = () => {
       console.error('Talent network submission error:', error);
       // Final fallback - always show success to user
       setSubmitMessage('Thank you for your interest! Your application has been received. We will contact you soon.');
+      setShowSuccessModal(true);
       
       // Store submission locally
       const submissions = JSON.parse(localStorage.getItem('talent_submissions') || '[]');
@@ -206,6 +227,7 @@ const TalentNetwork: React.FC = () => {
         agreeToShare: false
       });
       setResumeFile(null);
+      setErrors({});
     } finally {
       setIsSubmitting(false);
     }
@@ -520,10 +542,58 @@ const TalentNetwork: React.FC = () => {
                 </div>
               </div>
 
-              {/* Success Message */}
-              {submitMessage && (
-                <div className="p-4 bg-green-50 border border-green-200 rounded-lg">
-                  <p className="text-green-800">{submitMessage}</p>
+              {/* Error Modal */}
+              {showErrorModal && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                  <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+                    <div className="flex items-center mb-4">
+                      <div className="w-8 h-8 bg-red-100 rounded-full flex items-center justify-center mr-3">
+                        <svg className="w-5 h-5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+                        </svg>
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900">Missing Required Fields</h3>
+                    </div>
+                    <p className="text-gray-600 mb-4">Please fill in the following required fields:</p>
+                    <ul className="list-disc list-inside text-red-600 mb-6 space-y-1">
+                      {missingFields.map((field, index) => (
+                        <li key={index}>{field}</li>
+                      ))}
+                    </ul>
+                    <div className="flex justify-end">
+                      <button
+                        onClick={() => setShowErrorModal(false)}
+                        className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors"
+                      >
+                        OK
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Success Modal */}
+              {showSuccessModal && (
+                <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                  <div className="bg-white rounded-lg p-6 max-w-md w-full mx-4">
+                    <div className="flex items-center mb-4">
+                      <div className="w-8 h-8 bg-green-100 rounded-full flex items-center justify-center mr-3">
+                        <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                        </svg>
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900">Application Submitted!</h3>
+                    </div>
+                    <p className="text-gray-600 mb-6">{submitMessage}</p>
+                    <div className="flex justify-end">
+                      <button
+                        onClick={() => setShowSuccessModal(false)}
+                        className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors"
+                      >
+                        Great!
+                      </button>
+                    </div>
+                  </div>
                 </div>
               )}
 
