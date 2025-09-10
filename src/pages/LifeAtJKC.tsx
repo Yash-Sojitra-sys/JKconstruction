@@ -69,7 +69,7 @@ const LifeAtJKC: React.FC = () => {
                 <div className="space-y-6">
                   <p className="text-gray-700 text-lg leading-relaxed">
                     A value-based, purpose-driven, inclusive and diverse culture comes to life at each of our 
-                    subsidiary companies across the country and also unites us as "One JKC".
+                    subsidiary companies across the country and also unites us as "WORKING TOGETHER at JKC".
                   </p>
                   <p className="text-gray-700 text-lg leading-relaxed">
                     We take time to ensure these values inform every aspect of our operations and are 
@@ -77,7 +77,7 @@ const LifeAtJKC: React.FC = () => {
                     organizational performance, customer satisfaction and loyalty.
                   </p>
                   <p className="text-gray-700 text-lg leading-relaxed">
-                    What we do and how we do it is based on a set of <a href="#" className="text-blue-600 underline">six core values</a>.
+                    What we do and how we do it is based on a set of six core values.
                   </p>
                 </div>
               </div>
@@ -250,51 +250,7 @@ const LifeAtJKC: React.FC = () => {
           
           {/* Expandable Sections */}
           <div className="space-y-4">
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-              <div 
-                className="flex justify-between items-center cursor-pointer"
-                onClick={() => toggleProgram('internship')}
-              >
-                <h3 className="text-2xl font-bold text-gray-800">JKC Summer Internship Program</h3>
-                <div className="w-10 h-10 border-2 border-gray-400 rounded-full flex items-center justify-center">
-                  {expandedProgram === 'internship' ? (
-                    <Minus className="w-5 h-5 text-gray-600" />
-                  ) : (
-                    <Plus className="w-5 h-5 text-gray-600" />
-                  )}
-                </div>
-              </div>
-              {expandedProgram === 'internship' && (
-                <div className="mt-6 pt-4 border-t border-gray-200 text-left">
-                  <p className="text-gray-700 text-base leading-relaxed text-left">
-                    Targeted at providing meaningful internship experiences to students studying technology, finance, and business, the program provides students with specific projects to work on during their internship experience while learning about JKC and our business.
-                  </p>
-                </div>
-              )}
-            </div>
             
-            <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-              <div 
-                className="flex justify-between items-center cursor-pointer"
-                onClick={() => toggleProgram('2020')}
-              >
-                <h3 className="text-2xl font-bold text-gray-800">20/20 Program</h3>
-                <div className="w-10 h-10 border-2 border-gray-400 rounded-full flex items-center justify-center">
-                  {expandedProgram === '2020' ? (
-                    <Minus className="w-5 h-5 text-gray-600" />
-                  ) : (
-                    <Plus className="w-5 h-5 text-gray-600" />
-                  )}
-                </div>
-              </div>
-              {expandedProgram === '2020' && (
-                <div className="mt-6 pt-4 border-t border-gray-200 text-left">
-                  <p className="text-gray-700 text-base leading-relaxed text-left">
-                    JKC IT has partnered with Palm Beach State College to offer students studying technology the opportunity for practical work experience as they finish their degree program. This program has been successful in generating talent for our IT staff; we have 11 employees working with us who have graduated from the program since its launch in 2018.
-                  </p>
-                </div>
-              )}
-            </div>
           </div>
         </div>
       </section>

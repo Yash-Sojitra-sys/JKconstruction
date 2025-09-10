@@ -150,7 +150,6 @@ const Benefits: React.FC = () => {
       <Header isTransparent={true} />
       
       {/* Hero Section */}
-      <ServicesSection />
       <section className="relative h-[70vh] flex items-center justify-center px-0">
         <div className="absolute inset-0">
           <img 
