@@ -98,8 +98,7 @@ const Home: React.FC = () => {
                 What we <span className="text-green-400">stand for</span>
               </h2>
               <p className="text-base sm:text-lg leading-relaxed opacity-90">
-                Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations.<br />
-                Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
+                Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations. Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
               </p>
               <button 
                 onClick={() => navigate('/about-us')}
