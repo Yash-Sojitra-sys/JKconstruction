@@ -44,7 +44,7 @@ const ConnectionSection = () => {
           </p>
           <div className="flex justify-center mt-6 mb-4">
             <button 
-              onClick={() => handleNavigationClick('/life-at-jkc')}
+              onClick={() => handleNavigationClick('/connect-to-our-careers')}
               className="bg-blue-600 text-white px-3 py-2 rounded-full flex items-center hover:bg-blue-700 transition-colors inline-flex whitespace-nowrap text-sm sm:text-base"
             >
               <span className="px-3">People</span>

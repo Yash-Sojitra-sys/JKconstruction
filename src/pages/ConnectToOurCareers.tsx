@@ -186,15 +186,6 @@ const ConnectToOurCareers: React.FC = () => {
         </div>
       </section>
 
-      {/* Early Career Development Section */}
-      <section className="py-16 px-2 bg-gray-50">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-blue-600 mb-6">Early Career Development</h2>
-          <p className="text-gray-700 text-lg mb-12 px-1">
-            Just starting out? Not sure what path you want to take? Our Early Career Development is designed to guide both new graduates and new entrants in the workforce and support them right from the start of their career.
-          </p>
-        </div>
-      </section>
 
       {/* Jobs Section */}
       <section className="py-16 px-6">
