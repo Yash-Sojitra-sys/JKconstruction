@@ -19,9 +19,9 @@ const ConnectionSection = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-        <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
-          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Safety</h3>
-          <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
+        <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow min-h-[320px]">
+          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4 text-center">Safety</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-6 leading-7">
             We believe safety is more than rules and procedures – it's a mindset. Headpath program is our preferred path when mitigating risk on the job. Our multi-step strategy and intensive training empowers workers to recognize and enforce natural safety techniques, so they always get home safe.
           </p>
           <button 
@@ -32,9 +32,9 @@ const ConnectionSection = () => {
             <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
-        <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
-          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">People</h3>
-          <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
+        <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow min-h-[320px]">
+          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4 text-center">People</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-6 leading-7">
             Employees are our most important resource. We bring infrastructure to households and businesses alike. Each day, our people and teams work together to achieve incredible things, safely and with the highest standard, that positively impact the communities where we live and work.
           </p>
           <button 
@@ -45,9 +45,9 @@ const ConnectionSection = () => {
             <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
-        <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
-          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4">Our Reach</h3>
-          <p className="text-sm sm:text-base text-gray-700 mb-6 leading-relaxed">
+        <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow min-h-[320px]">
+          <h3 className="text-xl sm:text-2xl font-semibold text-blue-600 mb-4 text-center">Our Reach</h3>
+          <p className="text-sm sm:text-base text-gray-600 mb-6 leading-7">
            The reach of our expansive group of companies is built on our deep relationships with leading developers and government bodies. Dedicated to safety and quality, we have the partners to meet the needs of every client, no matter the scope or deadline. Our innovation ensures solutions that exceed expectations.
           </p>
           <button 
