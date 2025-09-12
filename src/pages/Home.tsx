@@ -97,9 +97,11 @@ const Home: React.FC = () => {
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light leading-tight">
                 What we <span className="text-green-400">stand for</span>
               </h2>
-              <p className="text-base sm:text-lg leading-relaxed opacity-90">
-                Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations. Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
-              </p>
+              <div className="space-y-4">
+                <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
+                  Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations. Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
+                </p>
+              </div>
               <button 
                 onClick={() => navigate('/about-us')}
                 className="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-full hover:bg-green-600 transition-colors text-sm sm:text-base"
