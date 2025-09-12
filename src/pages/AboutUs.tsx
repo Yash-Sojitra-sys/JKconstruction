@@ -1,7 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-import ConnectionSection from '../components/ConnectionSection';
-import ServicesSection from '../components/ServicesSection';
 import Footer from '../components/Footer';
 import { IMAGES } from '../constants/images';
 
@@ -21,100 +19,168 @@ const AboutUs: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40"></div>
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center text-white">
-          <h1 className="text-5xl md:text-6xl font-light mb-6">About Us</h1>
-          <p className="text-xl md:text-2xl opacity-90">Building Excellence Through Innovation and Dedication</p>
+          <h1 className="text-5xl md:text-6xl font-light mb-6">Connection With Intention</h1>
         </div>
       </section>
 
-      {/* Company Overview */}
-      <section className="py-20 px-6 max-w-5xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-600 mb-6">Our Story</h2>
-            <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-              Founded with a vision to transform India's infrastructure landscape, Jay Krishna Construction has grown from a small construction company to one of the nation's leading infrastructure development firms. Our journey spans over two decades of excellence, innovation, and unwavering commitment to quality.
-            </p>
-            <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-              We have successfully completed over 500 projects across residential, commercial, and infrastructure sectors, establishing ourselves as a trusted partner for clients ranging from government agencies to private developers.
-            </p>
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Our commitment to sustainability, safety, and community development drives every project we undertake, ensuring that we not only build structures but also contribute to the growth and prosperity of the communities we serve.
-            </p>
-          </div>
-          <div className="relative">
-            <img 
-              src={IMAGES.GALLERY.CONSTRUCTION_1} 
-              alt="Construction site overview"
-              className="rounded-lg shadow-xl w-full h-96 object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Mission & Vision */}
-      <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-blue-600 mb-4">Our Mission</h3>
+      {/* About Us Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-16 items-start">
+            <div>
+              <h2 className="text-4xl font-bold text-blue-600 mb-6">About Us</h2>
+              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+                Dycom Industries, Inc. is a leading provider of specialty contracting services to 
+                the telecommunications infrastructure and utility industries throughout the 
+                United States. Since our incorporation in the State of Florida in 1969, we have 
+                expanded our scope and service offerings organically and through acquisitions. 
+                Today, Dycom is made up of more than 40 operating companies that serve a 
+                diverse customer base across all 50 states from hundreds of field offices. Our 
+                geographic presence and substantial workforce provide the scale needed to 
+                quickly execute on opportunities to service existing and new customers 
+                throughout urban and rural America.
+              </p>
               <p className="text-gray-700 text-lg leading-relaxed">
-                To build excellence through innovative construction solutions, sustainable practices, and unwavering commitment to quality. We strive to exceed client expectations while contributing to India's infrastructure development and community growth.
+                Dycom's family of companies supply telecommunications providers with a 
+                comprehensive portfolio of specialty services, including program management; 
+                planning; engineering and design; aerial, underground, and wireless construction; 
+                maintenance; and fulfillment services. Additionally, we provide underground 
+                facility locating services for various utilities, including telecommunications 
+                providers, and other construction and maintenance services for electric and gas 
+                utilities. Dycom supplies the labor, tools, and equipment necessary to provide 
+                these services to our customers.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold text-blue-600 mb-4">Our Vision</h3>
-              <p className="text-gray-700 text-lg leading-relaxed">
-                To be India's most trusted and innovative construction company, recognized for our excellence in project delivery, commitment to sustainability, and positive impact on communities across the nation.
-              </p>
+            
+            <div className="relative flex justify-center">
+              <div className="relative w-[500px] h-[400px]">
+                <img 
+                  src={IMAGES.GALLERY.CONSTRUCTION_4}
+                  alt="About Us"
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
-      <section className="py-20 px-6 max-w-5xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6">Our Values</h2>
-          <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
-            Our core values guide every decision we make and every project we undertake, ensuring that we maintain the highest standards of integrity and excellence.
-          </p>
-        </div>
-        
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center">
-            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-white text-2xl font-bold">I</span>
+      {/* Vision and Mission Section */}
+      <section className="py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-0">
+            {/* Our Vision */}
+            <div className="relative h-80 flex items-center justify-center">
+              <div className="absolute inset-0">
+                <img 
+                  src={IMAGES.GALLERY.CONSTRUCTION_1}
+                  alt="Our Vision"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/50"></div>
+              </div>
+              <div className="relative z-10 text-center text-white px-8">
+                <h2 className="text-4xl font-bold mb-4">Our Vision</h2>
+                <p className="text-xl">To connect Gujarat, India.</p>
+              </div>
             </div>
-            <h3 className="text-xl font-bold text-blue-600 mb-3">Integrity</h3>
-            <p className="text-gray-700 leading-relaxed">
-              We conduct business with honesty, transparency, and ethical practices in all our interactions.
-            </p>
-          </div>
-          
-          <div className="text-center">
-            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-white text-2xl font-bold">E</span>
+
+            {/* Our Mission */}
+            <div className="relative h-80 flex items-center justify-center">
+              <div className="absolute inset-0">
+                <img 
+                  src={IMAGES.GALLERY.CONSTRUCTION_2}
+                  alt="Our Mission"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-blue-900/70"></div>
+              </div>
+              <div className="relative z-10 text-center text-white px-8">
+                <h2 className="text-4xl font-bold mb-4">Our Mission</h2>
+                <div className="space-y-2">
+                  <p className="text-lg">Serve customers skillfully.</p>
+                  <p className="text-lg">Deliver results with discipline.</p>
+                  <p className="text-lg">Accountable in all we do.</p>
+                </div>
+              </div>
             </div>
-            <h3 className="text-xl font-bold text-blue-600 mb-3">Excellence</h3>
-            <p className="text-gray-700 leading-relaxed">
-              We strive for perfection in every project, continuously improving our processes and outcomes.
-            </p>
-          </div>
-          
-          <div className="text-center">
-            <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-white text-2xl font-bold">I</span>
-            </div>
-            <h3 className="text-xl font-bold text-blue-600 mb-3">Innovation</h3>
-            <p className="text-gray-700 leading-relaxed">
-              We embrace new technologies and methodologies to deliver cutting-edge construction solutions.
-            </p>
           </div>
         </div>
       </section>
 
-      <ConnectionSection />
-      <ServicesSection />
+      {/* Our Values Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-16 items-start">
+            <div>
+              <h2 className="text-4xl font-bold text-blue-600 mb-8">Our Values</h2>
+              
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">People</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Our people are at the heart of everything we do. They are our most important resource. Every day, we strive 
+                    to create and maintain a healthy environment in which they can grow their skills, work collaboratively, and 
+                    deliver high quality services to our customers.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">Safety</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    An instinctually safe culture is our goal, ensuring our teams, and everyone who comes in contact with our 
+                    work, gets home safely each day.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">Integrity</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    We hold ourselves accountable to one another and treat others with respect. We are honest, forthright, 
+                    and ethical in the work we perform and deliver every day.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">Innovation</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    We continually challenge ourselves to improve our performance and solve problems, driving innovation, 
+                    informed but unconstrained by our past experiences.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">Customer Focus</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    Customers are at the forefront of everything we do. By understanding their needs and exceeding their 
+                    expectations, we strive to be valued partners, delivering the high quality our customers require and 
+                    building enduring relationships.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-bold text-blue-600 mb-3">Sustainability</h3>
+                  <p className="text-gray-700 leading-relaxed">
+                    We manage all aspects of our operations with accountability, understanding the economic, environmental, 
+                    and social impacts our operations create for our people, stakeholders and the communities in which we work.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative flex justify-center">
+              <div className="relative w-[400px] h-[400px]">
+                <img 
+                  src="/images/About Us/Image1.png"
+                  alt="Our Values Diagram"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
