@@ -66,41 +66,41 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* Vision and Mission Section */}
-      <section className="py-0 px-0">
-        <div className="w-full">
+      <section className="w-full">
+        <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
           <div className="grid md:grid-cols-2 gap-0">
             {/* Our Vision */}
-            <div className="relative h-96 flex items-center justify-center">
+            <div className="relative h-[50vh] min-h-[400px] flex items-center justify-center">
               <div className="absolute inset-0">
                 <img 
                   src={IMAGES.GALLERY.CONSTRUCTION_1}
                   alt="Our Vision"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
+                <div className="absolute inset-0 bg-black/60"></div>
               </div>
               <div className="relative z-10 text-center text-white px-8">
-                <h2 className="text-5xl font-bold mb-6">Our Vision</h2>
-                <p className="text-2xl font-medium">To connect Gujarat, India.</p>
+                <h2 className="text-6xl font-bold mb-8">Our Vision</h2>
+                <p className="text-2xl font-light">To connect Gujarat, India.</p>
               </div>
             </div>
 
             {/* Our Mission */}
-            <div className="relative h-96 flex items-center justify-center">
+            <div className="relative h-[50vh] min-h-[400px] flex items-center justify-center">
               <div className="absolute inset-0">
                 <img 
                   src={IMAGES.GALLERY.CONSTRUCTION_2}
                   alt="Our Mission"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-l from-blue-900/80 via-blue-800/60 to-blue-700/40"></div>
+                <div className="absolute inset-0 bg-blue-900/70"></div>
               </div>
               <div className="relative z-10 text-center text-white px-8">
-                <h2 className="text-5xl font-bold mb-6">Our Mission</h2>
-                <div className="space-y-3">
-                  <p className="text-xl font-medium">Serve customers skillfully.</p>
-                  <p className="text-xl font-medium">Deliver results with discipline.</p>
-                  <p className="text-xl font-medium">Accountable in all we do.</p>
+                <h2 className="text-6xl font-bold mb-8">Our Mission</h2>
+                <div className="space-y-4">
+                  <p className="text-2xl font-light">Serve customers skillfully.</p>
+                  <p className="text-2xl font-light">Deliver results with discipline.</p>
+                  <p className="text-2xl font-light">Accountable in all we do.</p>
                 </div>
               </div>
             </div>
