@@ -30,7 +30,7 @@ const ConnectionSection = () => {
               className="bg-blue-600 text-white px-3 py-2 rounded-full flex items-center hover:bg-blue-700 transition-colors inline-flex whitespace-nowrap text-sm sm:text-base"
             >
               <span className="px-3">Safety</span>
-              <div className="ml-2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+              <div className="ml-2 w-8 h-8 border-2 border-white rounded-full flex items-center justify-center">
                 <ChevronRight className="w-4 h-4 text-white" />
               </div>
             </button>
@@ -47,7 +47,7 @@ const ConnectionSection = () => {
               className="bg-blue-600 text-white px-3 py-2 rounded-full flex items-center hover:bg-blue-700 transition-colors inline-flex whitespace-nowrap text-sm sm:text-base"
             >
               <span className="px-3">People</span>
-              <div className="ml-2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+              <div className="ml-2 w-8 h-8 border-2 border-white rounded-full flex items-center justify-center">
                 <ChevronRight className="w-4 h-4 text-white" />
               </div>
             </button>
@@ -64,7 +64,7 @@ const ConnectionSection = () => {
               className="bg-blue-600 text-white px-3 py-2 rounded-full flex items-center hover:bg-blue-700 transition-colors inline-flex whitespace-nowrap text-sm sm:text-base"
             >
               <span className="px-3">Our Family of Companies</span>
-              <div className="ml-2 w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center">
+              <div className="ml-2 w-8 h-8 border-2 border-white rounded-full flex items-center justify-center">
                 <ChevronRight className="w-4 h-4 text-white" />
               </div>
             </button>
