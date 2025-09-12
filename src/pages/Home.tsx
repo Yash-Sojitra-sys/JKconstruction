@@ -103,7 +103,10 @@ const Home: React.FC = () => {
               </h2>
               <div className="space-y-4">
                 <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
-                  Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations.Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
+                  JKC Industries stands as a cornerstone of excellence in telecommunications infrastructure development across Gujarat, India. Our commitment to innovation and quality has established us as the preferred partner for major telecom operators and utility companies. We deliver comprehensive solutions that connect communities and drive technological advancement throughout the region.
+                </p>
+                <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
+                  Through strategic partnerships and cutting-edge methodologies, we ensure every project meets the highest standards of safety, efficiency, and sustainability. Our mission to connect people extends beyond infrastructure—we build lasting relationships that foster growth, innovation, and prosperity for all stakeholders in the telecommunications ecosystem.
                 </p>
               </div>
               <button 
