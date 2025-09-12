@@ -59,7 +59,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-gray-900 mb-6 text-base sm:text-lg mt-8">Careers</h4>
             <ul className="space-y-3 text-sm sm:text-base text-gray-600">
-              <li><Link to="/benefits" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Benefits</Link></li>
               <li><Link to="/life-at-jkc" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Life at JKC</Link></li>
               <li><Link to="/connect-to-our-careers" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Connect to Our Careers</Link></li>
             </ul>

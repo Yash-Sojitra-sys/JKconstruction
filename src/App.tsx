@@ -9,7 +9,6 @@ import CivilConstruction from './pages/CivilConstruction';
 import Infrastructure from './pages/Infrastructure';
 import Residential from './pages/Residential';
 import Careers from './pages/Careers';
-import Benefits from './pages/Benefits';
 import LifeAtJKC from './pages/LifeAtJKC';
 import ConnectToOurCareers from './pages/ConnectToOurCareers';
 import UploadResume from './pages/UploadResume';
@@ -43,7 +42,6 @@ function App() {
         <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/residential" element={<Residential />} />
         <Route path="/careers" element={<Careers />} />
-        <Route path="/benefits" element={<Benefits />} />
         <Route path="/life-at-jkc" element={<LifeAtJKC />} />
         <Route path="/connect-to-our-careers" element={<ConnectToOurCareers />} />
         <Route path="/upload-resume" element={<UploadResume />} />

@@ -50,16 +50,149 @@ const ConnectToOurCareers: React.FC = () => {
       <Header isTransparent={true} />
       
       {/* Hero Section */}
-      <section className="relative h-[60vh] flex items-center justify-center px-6">
+      <section className="relative h-[70vh] flex items-center justify-center px-0">
         <div className="absolute inset-0">
           <img 
             src={IMAGES.GALLERY.CONSTRUCTION_3}
-            alt="Connect to careers"
+            alt="Connect to a Career With a Purpose"
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="relative z-10 max-w-5xl mx-auto text-center text-white">
-          <h1 className="text-5xl md:text-6xl font-light mb-6">Connecting You To Possibilities</h1>
+        <div className="relative z-10 w-full text-center text-white px-1 mt-4">
+          <h1 className="text-5xl md:text-6xl font-semibold leading-tight">Connect to a Career With a Purpose</h1>
+        </div>
+      </section>
+
+      {/* Connect to Your Next Opportunity Section */}
+      <section className="bg-blue-600 py-12">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-bold text-white">Connect to Your Next Opportunity</h2>
+        </div>
+      </section>
+
+      {/* Combined What we stand for and Values Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-16 items-start">
+            <div className="space-y-12">
+              {/* What we stand for */}
+              <div>
+                <h2 className="text-4xl font-bold text-blue-600 mb-6">What we stand for</h2>
+                <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+                  Our nationwide network of more than 5,000 employees shares a common vision of 
+                  connecting Gujarat, India. Our ability to deliver to our customers and reconnect communities 
+                  online relies on our engaged workforce. The values we hold at JKC define our culture.
+                </p>
+                <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+                  The values guide us in our dealings with one another, with our customers, and with the 
+                  communities where we live.
+                </p>
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  Team members strive to treat each other with respect, value different perspectives and 
+                  experiences; keep our and others' safety at the forefront of our minds, and uphold the 
+                  highest ethical standards.
+                </p>
+              </div>
+
+              {/* Values */}
+              <div>
+                <h2 className="text-4xl font-bold text-blue-600 mb-8">Values</h2>
+                <div className="space-y-6">
+                  <p className="text-gray-700 text-lg leading-relaxed">
+                    A value-based, purpose-driven, inclusive and diverse culture comes to life at each of our 
+                    subsidiary companies across the country and also unites us as "WORKING TOGETHER at JKC".
+                  </p>
+                  <p className="text-gray-700 text-lg leading-relaxed">
+                    We take time to ensure these values inform every aspect of our operations and are 
+                    embedded in systems, processes and policies to drive employee engagement, 
+                    organizational performance, customer satisfaction and loyalty.
+                  </p>
+                  <p className="text-gray-700 text-lg leading-relaxed">
+                    What we do and how we do it is based on a set of six core values.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="relative flex justify-center">
+              {/* Professional Values Diagram - Even larger size */}
+              <div className="relative w-[600px] h-[600px]">
+                <img 
+                  src="/images/Life at JKC/Photo1.png"
+                  alt="Jay Krishna Construction Values Diagram"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Where We Operate Section */}
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold text-blue-600 mb-6">Where We Operate</h2>
+              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+                Not only do we have over 40 operating divisions and over 500 offices and warehouses 
+                located across Gujarat, India, JKC has adopted a hybrid work model for many positions, which 
+                means you can take your job anywhere, coast to coast.
+              </p>
+            </div>
+            <div className="relative flex justify-center">
+              <div className="relative w-[500px] h-[400px]">
+                <img 
+                  src="/images/Life at JKC/Photo2.png"
+                  alt="Where We Operate Map"
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Work Environment Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <img 
+                src={IMAGES.GALLERY.CONSTRUCTION_4}
+                alt="Work Environment"
+                className="w-full h-96 object-cover rounded-lg"
+              />
+            </div>
+            <div>
+              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+                We believe in fostering a work environment where our people are treated with respect, 
+                can be productive, and are empowered to thrive personally and professionally. As a 
+                company that operates across communities where we live in, work in, and serve a wide variety of 
+                communities and it is important to us that our workforce reflects these communities.
+              </p>
+              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+                Our people bring their own experiences, backgrounds and talents to work every day. Our 
+                commitment is to provide an engaging environment that attracts the very best talent and 
+                provides opportunities for them to develop and grow with us.
+              </p>
+              <p className="text-gray-700 text-lg leading-relaxed">
+                We hold ourselves accountable to one another and treat others with respect. This respect 
+                takes the form of our commitment to fair safety and employment conditions, as well as the 
+                fundamental protections that empower our diverse company.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Early Career Development Section */}
+      <section className="py-16 px-2 bg-gray-50">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-blue-600 mb-6">Early Career Development</h2>
+          <p className="text-gray-700 text-lg mb-12 px-1">
+            Just starting out? Not sure what path you want to take? Our Early Career Development is designed to guide both new graduates and new entrants in the workforce and support them right from the start of their career.
+          </p>
         </div>
       </section>
 

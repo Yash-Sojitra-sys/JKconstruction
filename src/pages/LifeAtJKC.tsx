@@ -97,84 +97,71 @@ const LifeAtJKC: React.FC = () => {
         </div>
       </section>
 
-      {/* Training Cards Section */}
-      <section className="py-12 px-4" style={{ backgroundColor: '#dce5f3' }}>
-        <div className="max-w-7xl mx-auto">
-          {/* Title and Description above cards */}
-          <div className="text-center mb-8">
-            <h2 className="text-5xl font-bold text-blue-600 mb-4">Talent Development and Growth</h2>
-            <div className="w-full">
-              <p className="text-gray-700 text-base px-0 mx-0 text-center">
-                We provide opportunities for our people to learn and develop the skills and knowledge to be successful in their current role as well as to prepare them for future growth within the company.
-              </p>
-            </div>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* On the Job Training */}
+      {/* Job Categories Section */}
+      <section style={{ backgroundColor: '#dce5f3' }} className="py-16">
+        <div className="max-w-7xl mx-auto px-6">
+          <h2 className="text-4xl font-bold text-center text-gray-600 mb-12">Job Categories just for you</h2>
+          
+          <div className="grid md:grid-cols-3 gap-8">
+            {/* Corporate Support Card */}
             <div className="relative group cursor-pointer overflow-hidden rounded-lg">
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_1}
-                alt="On the Job Training"
-                className="w-full h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                alt="Corporate Support"
+                className="w-full h-80 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-xl font-bold mb-2">On the Job Training</h3>
+                <h3 className="text-xl font-bold mb-2">Corporate Support</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">On the Job Training</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">
-                    Continuous learning is the surest path to continuous success. Learn everyday from the best of the best. Our team is made up of both tenured professionals and newcomers alike. All our employees are provided with opportunities to enhance their skills and expand their expertise.
-                  </p>
+                  <h3 className="text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Corporate Support</h3>
+                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our Corporate team provides expertise in the following areas: program and project management, safety, fleet and business development.</p>
                 </div>
               </div>
             </div>
 
-            {/* Education Assistance Program */}
+            {/* Operations Card */}
             <div className="relative group cursor-pointer overflow-hidden rounded-lg">
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_2}
-                alt="Education Assistance Program"
-                className="w-full h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                alt="Operations"
+                className="w-full h-80 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-xl font-bold mb-2">Education Assistance Program</h3>
+                <h3 className="text-xl font-bold mb-2">Operations</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Education Assistance Program</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">
-                    Employees with more than 6 months of service can participate. This program provides reimbursement for associate, bachelor's and master's degree programs for any employee. Participants are eligible for a maximum of $7,500 annually.
-                  </p>
+                  <h3 className="text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Operations</h3>
+                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our Operations team provides expertise in the following areas: program and project management, safety, fleet and business development.</p>
                 </div>
               </div>
             </div>
 
-            {/* Online Professional Development */}
+            {/* Technology Card */}
             <div className="relative group cursor-pointer overflow-hidden rounded-lg">
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_3}
-                alt="Online Professional Development"
-                className="w-full h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                alt="Technology"
+                className="w-full h-80 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-xl font-bold mb-2">Online Professional Development Resources and Training Programs</h3>
+                <h3 className="text-xl font-bold mb-2">Technology</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Online Professional Development Resources and Training Programs</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">
-                    Our entire team has access to LinkedIn Learning's Library of over 10,000 professional development courses.
-                  </p>
+                  <h3 className="text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Technology</h3>
+                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our Technology team provides expertise in the following areas: program and project management, safety, fleet and business development.</p>
                 </div>
               </div>
             </div>

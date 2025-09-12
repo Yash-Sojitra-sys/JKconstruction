@@ -302,16 +302,6 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                 }`}>
                   <div className="ml-6 space-y-3 text-base text-gray-600 pt-3">
                     <Link 
-                      to="/benefits" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
-                      onClick={() => {
-                        toggleMenu();
-                        window.scrollTo({top: 0, behavior: 'smooth'});
-                      }}
-                    >
-                      Benefits
-                    </Link>
-                    <Link 
                       to="/life-at-jkc" 
                       className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
