@@ -99,7 +99,10 @@ const Home: React.FC = () => {
               </h2>
               <div className="space-y-4">
                 <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
-                  Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations. Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
+                  Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations.
+                </p>
+                <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
+                  Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
                 </p>
               </div>
               <button 
