@@ -24,9 +24,9 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-full mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-8 items-start">
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-4xl font-bold text-blue-600 mb-6">About Us</h2>
               <p className="text-gray-700 mb-6 text-xl leading-relaxed">
