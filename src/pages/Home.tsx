@@ -22,6 +22,7 @@ const Home: React.FC = () => {
     
     if (serviceRoutes[service]) {
       navigate(serviceRoutes[service]);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
@@ -74,7 +75,10 @@ const Home: React.FC = () => {
               </p>
             </div>
             <button 
-              onClick={() => navigate('/our-company')}
+              onClick={() => {
+                navigate('/our-company');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
               className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors text-sm sm:text-base"
             >
               <span>LEARN ABOUT OUR FAMILY OF COMPANIES</span>
@@ -103,7 +107,10 @@ const Home: React.FC = () => {
                 </p>
               </div>
               <button 
-                onClick={() => navigate('/about-us')}
+                onClick={() => {
+                  navigate('/about-us');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
                 className="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-full hover:bg-green-600 transition-colors text-sm sm:text-base"
               >
                 About Us

@@ -263,7 +263,10 @@ const LifeAtJKC: React.FC = () => {
             <p className="text-xl mb-8">Join Our Talent Network!</p>
             <div className="flex justify-center">
               <button 
-                onClick={() => navigate('/talent-network')}
+                onClick={() => {
+                  navigate('/talent-network');
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-full font-semibold text-base transition-colors flex items-center gap-2"
               >
                 Connect with us!

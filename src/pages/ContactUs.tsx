@@ -33,6 +33,7 @@ const ContactUs: React.FC = () => {
     
     const route = serviceRoutes[serviceName] || '/what-we-do';
     navigate(route);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {

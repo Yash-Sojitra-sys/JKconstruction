@@ -7,6 +7,7 @@ const ConnectionSection = () => {
 
   const handleNavigationClick = (route: string) => {
     navigate(route);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (

@@ -9,24 +9,31 @@ const ServicesSection: React.FC = () => {
     switch (service) {
       case 'wireline':
         navigate('/wireline-construction');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'wireless':
         navigate('/wireless-construction');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'locating':
         navigate('/locating-and-sue');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'engineering':
         navigate('/engineering');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'fulfillment':
         navigate('/fulfillment');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'maintenance':
         navigate('/maintenance-and-amc');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       case 'project-management':
         navigate('/project-management');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         break;
       default:
         break;
