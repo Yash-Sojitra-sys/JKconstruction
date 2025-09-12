@@ -62,12 +62,15 @@ const Home: React.FC = () => {
       <section className="pt-8 pb-20 px-2 sm:px-4 lg:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-600 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 leading-tight">
               In the Air and Underground
             </h2>
             <div className="space-y-4">
               <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-                Jay Krishna Construction (JKC) is a leading provider of specialty contracting services to the infrastructure and construction industries throughout India. We supply the single most critical resource construction projects need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale. Our talented workforce of over 5,000 employees provides a wide array of specialty services including program management; planning; engineering and design; construction; maintenance; and fulfillment services for residential, commercial, and infrastructure projects.
+                JKC Industries, Inc. (NYSE:DY) is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
+              </p>
+              <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+                Our talented workforce of over 7,000 employees provides a wide array of specialty services including program management; planning; engineering and design; aerial, underground, and wireless construction; maintenance; and fulfillment services. Additionally, we provide underground facility locating services for various utilities, including telecommunications providers, and other construction and maintenance services for electric and gas utilities.
               </p>
             </div>
             <button 
@@ -95,7 +98,7 @@ const Home: React.FC = () => {
                 What we <span className="text-green-400">stand for</span>
               </h2>
               <p className="text-base sm:text-lg leading-relaxed opacity-90">
-                Embracing a common vision of Connecting People, JKC proudly builds infrastructure and partnerships nationwide. Our engaged workforce is key to meeting the needs of our customers by bringing and keeping communities connected. We live by our values at JKC. They guide our interactions with each other, with our customers, and with the communities where we live and work.
+                Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations. Our mission, To Connect People, guides our strategy to ensure we deliver for our people, communities and partners.
               </p>
               <button 
                 onClick={() => navigate('/about-us')}
