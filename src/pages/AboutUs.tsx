@@ -24,12 +24,12 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-start">
+      <section className="py-20 px-4 bg-white">
+        <div className="max-w-full mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-8 items-start">
             <div>
               <h2 className="text-4xl font-bold text-blue-600 mb-6">About Us</h2>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
+              <p className="text-gray-700 mb-6 text-xl leading-relaxed">
                 Dycom Industries, Inc. is a leading provider of specialty contracting services to 
                 the telecommunications infrastructure and utility industries throughout the 
                 United States. Since our incorporation in the State of Florida in 1969, we have 
@@ -40,7 +40,7 @@ const AboutUs: React.FC = () => {
                 quickly execute on opportunities to service existing and new customers 
                 throughout urban and rural America.
               </p>
-              <p className="text-gray-700 text-lg leading-relaxed">
+              <p className="text-gray-700 text-xl leading-relaxed">
                 Dycom's family of companies supply telecommunications providers with a 
                 comprehensive portfolio of specialty services, including program management; 
                 planning; engineering and design; aerial, underground, and wireless construction; 
@@ -53,7 +53,7 @@ const AboutUs: React.FC = () => {
             </div>
             
             <div className="relative flex justify-center">
-              <div className="relative w-[500px] h-[400px]">
+              <div className="relative w-full h-[600px]">
                 <img 
                   src={IMAGES.GALLERY.CONSTRUCTION_4}
                   alt="About Us"
@@ -66,41 +66,41 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* Vision and Mission Section */}
-      <section className="py-16 px-6">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-0 px-0">
+        <div className="w-full">
           <div className="grid md:grid-cols-2 gap-0">
             {/* Our Vision */}
-            <div className="relative h-80 flex items-center justify-center">
+            <div className="relative h-96 flex items-center justify-center">
               <div className="absolute inset-0">
                 <img 
                   src={IMAGES.GALLERY.CONSTRUCTION_1}
                   alt="Our Vision"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black/50"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
               </div>
               <div className="relative z-10 text-center text-white px-8">
-                <h2 className="text-4xl font-bold mb-4">Our Vision</h2>
-                <p className="text-xl">To connect Gujarat, India.</p>
+                <h2 className="text-5xl font-bold mb-6">Our Vision</h2>
+                <p className="text-2xl font-medium">To connect Gujarat, India.</p>
               </div>
             </div>
 
             {/* Our Mission */}
-            <div className="relative h-80 flex items-center justify-center">
+            <div className="relative h-96 flex items-center justify-center">
               <div className="absolute inset-0">
                 <img 
                   src={IMAGES.GALLERY.CONSTRUCTION_2}
                   alt="Our Mission"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-blue-900/70"></div>
+                <div className="absolute inset-0 bg-gradient-to-l from-blue-900/80 via-blue-800/60 to-blue-700/40"></div>
               </div>
               <div className="relative z-10 text-center text-white px-8">
-                <h2 className="text-4xl font-bold mb-4">Our Mission</h2>
-                <div className="space-y-2">
-                  <p className="text-lg">Serve customers skillfully.</p>
-                  <p className="text-lg">Deliver results with discipline.</p>
-                  <p className="text-lg">Accountable in all we do.</p>
+                <h2 className="text-5xl font-bold mb-6">Our Mission</h2>
+                <div className="space-y-3">
+                  <p className="text-xl font-medium">Serve customers skillfully.</p>
+                  <p className="text-xl font-medium">Deliver results with discipline.</p>
+                  <p className="text-xl font-medium">Accountable in all we do.</p>
                 </div>
               </div>
             </div>
@@ -109,8 +109,8 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* Our Values Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-20 px-4 bg-white">
+        <div className="max-w-full mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-4xl font-bold text-blue-600 mb-8">Our Values</h2>
