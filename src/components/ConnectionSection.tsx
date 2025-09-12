@@ -15,7 +15,7 @@ const ConnectionSection = () => {
       <div className="max-w-7xl mx-auto">
       <div className="mb-16">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 mb-6 text-left leading-tight">Connection with Intention</h2>
-        <p className="text-base sm:text-lg text-gray-700 leading-relaxed max-w-4xl">
+        <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
           Our team's performance and innovation is trusted by several of the country's most prominent brands on a daily basis, and we are constantly striving to meet and exceed expectations. Our mission, <strong><em>To Connect People</em></strong>, guides our strategy to ensure we deliver for our people, communities and partners.
         </p>
       </div>
