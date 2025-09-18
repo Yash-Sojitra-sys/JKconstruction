@@ -54,28 +54,67 @@ const Footer: React.FC = () => {
 
           {/* Company Section - Shifted more right */}
           <div className="md:ml-8 md:mt-8">
-            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-5">Company</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-5 hover:text-gray-500 transition-colors duration-300 cursor-pointer">Company</h4>
             <ul className="space-y-3 text-lg text-gray-600 mt-2">
-              <li><Link to="/" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
-              <li><Link to="/our-company" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Us</Link></li>
-              <li><Link to="/our-family-of-companies" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Our Companies</Link></li>
-              <li><Link to="/safety" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Safety</Link></li>
-              <li><Link to="/quality" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Quality</Link></li>
-              <li><Link to="/sustainability" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Sustainability</Link></li>
+              <li><Link to="/" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Home
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/our-company" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                About Us
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/our-family-of-companies" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Our Company
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/safety" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Safety
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/quality" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Quality
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/sustainability" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Sustainability
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
             </ul>
           </div>
 
           {/* Services Section */}
           <div className="md:mt-8">
-            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-5">Services</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-5 hover:text-gray-500 transition-colors duration-300 cursor-pointer">Services</h4>
             <ul className="space-y-3 text-lg text-gray-600 mt-2">
-              <li><Link to="/project-management" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Project Management</Link></li>
-              <li><Link to="/wireline-construction" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireline Construction</Link></li>
-              <li><Link to="/wireless-construction" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireless Construction</Link></li>
-              <li><Link to="/engineering" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Engineering</Link></li>
-              <li><Link to="/locating-and-sue" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Locating</Link></li>
-              <li><Link to="/fulfillment" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Fulfillment</Link></li>
-              <li><Link to="/maintenance-and-amc" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Maintenance & Restoration</Link></li>
+              <li><Link to="/project-management" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Project Management
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/wireline-construction" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Wireline Construction
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/wireless-construction" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Wireless Construction
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/engineering" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Engineering
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/locating-and-sue" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Locating
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/fulfillment" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Fulfillment
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/maintenance-and-amc" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Maintenance & Restoration
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
             </ul>
           </div>
 
