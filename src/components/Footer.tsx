@@ -7,26 +7,25 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-7 gap-6 md:gap-10">
-          <div className="md:col-span-2">
-            <Link to="/" className="flex items-center space-x-3 mb-1">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 max-w-5xl mx-auto">
+          <div className="md:col-span-1">
+            <Link to="/" className="flex flex-col items-start mb-6">
               <img 
                 src={IMAGES.LOGO.MAIN}
                 alt="JKC Logo"
-                className="w-40 h-40 object-contain"
+                className="w-32 h-32 object-contain mb-4"
               />
-              <span className="text-3xl font-bold text-gray-900"></span>
             </Link>
-            <div className="text-gray-600 text-sm sm:text-base space-y-2">
-              <p>Jay Krishna Construction</p>
+            <div className="text-gray-600 text-sm space-y-1">
+              <p className="font-semibold text-gray-900">Jay Krishna Construction</p>
               <p>716, Millenium Business Hub</p>
               <p>Sarthana Jakatnaka</p>
               <p>Varrachha Main Road</p>
               <p>Surat, Gujarat - 395006</p>
-              <p className="mt-4 font-medium">jaykrishna.surat@gmail.com</p>
+              <p className="mt-3 font-medium">jaykrishna.surat@gmail.com</p>
               <p className="font-medium">+91 9374701899</p>
             </div>
-            <div className="flex space-x-4 mt-6">
+            <div className="flex items-center space-x-4 mt-4">
               <a 
                 href="https://www.linkedin.com/in/jaykrishnaconstruction/" 
                 target="_blank" 
@@ -39,9 +38,9 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <div className="md:ml-8">
-            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Company</h4>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+          <div>
+            <h4 className="font-bold text-gray-900 mb-4 text-lg">Company</h4>
+            <ul className="space-y-2 text-sm text-gray-600">
               <li><Link to="/" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
               <li><Link to="/our-company" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Us</Link></li>
               <li><Link to="/our-family-of-companies" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Our Companies</Link></li>
@@ -51,9 +50,9 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          <div className="md:ml-4">
-            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Services</h4>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+          <div>
+            <h4 className="font-bold text-gray-900 mb-4 text-lg">Services</h4>
+            <ul className="space-y-2 text-sm text-gray-600">
               <li><Link to="/wireline-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireline Construction</Link></li>
               <li><Link to="/wireless-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireless Construction</Link></li>
               <li><Link to="/engineering" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Engineering</Link></li>
@@ -64,23 +63,21 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col">
+          <div>
             <div className="mb-8">
-              <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Careers</h4>
-              <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+              <h4 className="font-bold text-gray-900 mb-4 text-lg">Careers</h4>
+              <ul className="space-y-2 text-sm text-gray-600">
                 <li><Link to="/connect-to-our-careers" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Connect to Our Careers</Link></li>
               </ul>
             </div>
             
             <div>
-              <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Contact</h4>
-              <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+              <h4 className="font-bold text-gray-900 mb-4 text-lg">Contact</h4>
+              <ul className="space-y-2 text-sm text-gray-600">
                 <li><Link to="/contact-us" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
               </ul>
             </div>
           </div>
-
-          <div className="md:col-span-1"></div>
 
         </div>
 

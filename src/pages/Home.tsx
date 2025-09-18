@@ -138,13 +138,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Wireline Construction</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Wireline Construction</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireline Construction</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireline Construction</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Across the nation, we complete construction projects with our workers' talents augmented by our enterprise technology tools.</p>
                 </div>
               </div>
@@ -159,13 +159,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Wireless Construction</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Wireless Construction</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireless Construction</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireless Construction</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC is an expert in wireless communications construction. We complete projects of any size, from macro cells to small cells, for 4G and 5G networks.</p>
                 </div>
               </div>
@@ -180,13 +180,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Locating</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Locating</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Locating</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Locating</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our locating services provide the skilled workforce necessary to ensure all underground utilities are identified before work begins.</p>
                 </div>
               </div>
@@ -204,13 +204,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Engineering</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Engineering</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Engineering</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Engineering</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our engineering teams survey and design facilities for copper, coaxial and fiber networks.</p>
                 </div>
               </div>
@@ -225,13 +225,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Fulfillment</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Fulfillment</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Fulfillment</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Fulfillment</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC provides fulfillment services including complete in-home and drop installations, as well as repair and maintenance of broadband networks.</p>
                 </div>
               </div>
@@ -246,13 +246,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Maintenance & Restoration</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Maintenance & Restoration</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Maintenance & Restoration</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Maintenance & Restoration</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC provides ongoing maintenance and service for telecommunication networks across the country, as well as emergency restoration services when required.</p>
                 </div>
               </div>
@@ -267,13 +267,13 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Project Management</h3>
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-1 sm:mb-2">Project Management</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
                 <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Project Management</h3>
+                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Project Management</h3>
                   <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Expert project management services ensuring successful delivery of complex telecommunications and infrastructure projects on time and within budget.</p>
                 </div>
               </div>
