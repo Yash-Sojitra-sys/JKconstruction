@@ -7,14 +7,14 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-50 border-t border-gray-200">
       <div className="max-w-7xl mx-auto pl-16 pr-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 md:gap-12 md:ml-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 md:ml-8">
           {/* Company Info Section */}
           <div className="md:col-span-1">
-            <Link to="/" className="inline-block mb-6" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+            <Link to="/" className="inline-block mb-2" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img 
                 src={IMAGES.LOGO.MAIN}
                 alt="JKC Logo"
-                className="h-16 w-auto object-contain"
+                className="h-20 w-auto object-contain"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.src = FALLBACK_IMAGES.LOGO;
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform"
               >
-                <Linkedin className="w-6 h-6 cursor-pointer" style={{color: '#1769bc'}} />
+                <Linkedin className="w-6 h-6 text-blue-600 cursor-pointer hover:text-blue-700" />
               </a>
               <a 
                 href="https://www.instagram.com/jaykrishna_construction?igsh=bXE4eGN0b3I1dG92&utm_source=qr" 
@@ -79,17 +79,14 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Careers Section */}
+          {/* Careers and Contact Section */}
           <div>
             <h4 className="font-medium text-gray-700 mb-4 text-xl">Careers</h4>
-            <ul className="space-y-3 text-lg text-gray-600">
+            <ul className="space-y-3 text-lg text-gray-600 mb-8">
               <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Our Careers</Link></li>
               <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Opportunities</Link></li>
             </ul>
-          </div>
-
-          {/* Contact Section */}
-          <div>
+            
             <h4 className="font-medium text-gray-700 mb-4 text-xl">Contact</h4>
             <ul className="space-y-3 text-lg text-gray-600">
               <li><Link to="/contact-us" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
@@ -101,8 +98,8 @@ const Footer: React.FC = () => {
 
       {/* Bottom Section */}
       <div className="bg-gray-600 py-4">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-left text-lg text-white pl-4">
+        <div className="w-full">
+          <p className="text-left text-base text-white pl-0 ml-0">
             © 2025 Jay Krishna Construction | Privacy Policy | Terms of Use
           </p>
         </div>
