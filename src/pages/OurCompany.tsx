@@ -30,7 +30,7 @@ const OurCompany: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-8">Accelerating speed and capacity</h2>
           <p className="text-gray-700 text-lg leading-relaxed max-w-5xl">
-            The reach of our expansive group of companies is built on our deep relationships with leading service providers. Intensely focused on safety and quality, and located in every region, our teams are ready with skilled personnel and state-of-the-art equipment and tooling. No matter the scope of work or promised deadline, find a JKC partner to match your needs.
+            The reach of our expansive group of companies is built on our deep relationships with leading service providers. Intensely focused on safety and quality, and located in every region, our teams are ready with skilled personnel and state of art equipment and tooling. No matter the scope of work or promised deadline, find a JKC partner to match your needs.
           </p>
         </div>
       </section>

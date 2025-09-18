@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-white py-20 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-5 gap-10">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center space-x-3 mb-1">
               <img 
@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             <div className="text-gray-600 text-sm sm:text-base space-y-2">
               <p>Jay Krishna Construction</p>
               <p>716, Millenium Business Hub</p>
-              <p>Sarthana Jakatnaka Varachha Main Road</p>
+              <p className="whitespace-nowrap">Sarthana Jakatnaka Varrachha Main Road</p>
               <p>Surat, Gujarat - 395006</p>
               <p className="mt-4 font-medium">jaykrishna.surat@gmail.com</p>
               <p className="font-medium">+91 9374701899</p>
@@ -46,13 +46,13 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-gray-900 mb-6 text-base sm:text-lg mt-8">Services</h4>
             <ul className="space-y-3 text-sm sm:text-base text-gray-600">
-              <li><Link to="/project-management" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Project Management</Link></li>
               <li><Link to="/wireline-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireline Construction</Link></li>
               <li><Link to="/wireless-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireless Construction</Link></li>
               <li><Link to="/engineering" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Engineering</Link></li>
-              <li><Link to="/locating-and-sue" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Locating</Link></li>
               <li><Link to="/fulfillment" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Fulfillment</Link></li>
-              <li><Link to="/maintenance-and-amc" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Maintenance & AMU</Link></li>
+              <li><Link to="/locating-and-sue" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Locating</Link></li>
+              <li><Link to="/project-management" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Project Management</Link></li>
+              <li><Link to="/maintenance-and-amc" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Maintenance & Restoration</Link></li>
             </ul>
           </div>
 

@@ -68,7 +68,7 @@ const Home: React.FC = () => {
             </h2>
             <div className="space-y-4 sm:space-y-6">
               <p className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-4 sm:mb-6">
-                JKC Industries, Inc. (NYSE:DY) is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
+                JKC(Jay Krishna Construction) is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
               </p>
               <p className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8">
                 Our talented workforce of over 7,000 employees provides a wide array of specialty services including program management; planning; engineering and design; aerial, underground, and wireless construction; maintenance; and fulfillment services. Additionally, we provide underground facility locating services for various utilities, including telecommunications providers, and other construction and maintenance services for electric and gas utilities.
@@ -90,7 +90,7 @@ const Home: React.FC = () => {
 
       {/* What We Stand For Section */}
       <section className="relative py-12 sm:py-16 lg:py-20">
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-600/80 to-slate-800/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-600/40 to-transparent"></div>
         <img 
           src={IMAGES.GALLERY.CONSTRUCTION_7}
           className="absolute inset-0 w-full h-full object-cover opacity-30"
@@ -98,15 +98,12 @@ const Home: React.FC = () => {
         <div className="relative z-10 px-4 sm:px-6 lg:px-8">
           <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="text-white space-y-6">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light leading-tight mb-6 sm:mb-8">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 sm:mb-8">
                 What we <span className="text-green-400">stand for</span>
               </h2>
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-white text-sm sm:text-base lg:text-lg leading-relaxed opacity-90 mb-4 sm:mb-6">
-                  JKC Industries stands as a cornerstone of excellence in telecommunications infrastructure development across Gujarat, India. Our commitment to innovation and quality has established us as the preferred partner for major telecom operators and utility companies. We deliver comprehensive solutions that connect communities and drive technological advancement throughout the region.
-                </p>
-                <p className="text-white text-sm sm:text-base lg:text-lg leading-relaxed opacity-90 mb-6 sm:mb-8">
-                  Through strategic partnerships and cutting-edge methodologies, we ensure every project meets the highest standards of safety, efficiency, and sustainability. Our mission to connect people extends beyond infrastructure—we build lasting relationships that foster growth, innovation, and prosperity for all stakeholders in the telecommunications ecosystem.
+                  Embracing a common vision of connecting India, JKC proudly builds networks and partnerships nationwide. Our engaged workforce is key to meeting the needs of our customers by bringing and keeping communities online and connected. We live by our values at JKC. They guide our interactions with each other, with our customers, and with the communities where we live and work.
                 </p>
               </div>
               <button 
