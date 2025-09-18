@@ -48,7 +48,8 @@ const WhatWeDo: React.FC = () => {
       </section>
 
       {/* Services Overview */}
-      <section className="py-20 px-6 max-w-5xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6">Our Services</h2>
           <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
@@ -81,11 +82,12 @@ const WhatWeDo: React.FC = () => {
             </div>
           ))}
         </div>
+        </div>
       </section>
 
       {/* Process Section */}
-      <section className="py-20 px-6 bg-gray-50">
-        <div className="max-w-5xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-6">Our Process</h2>
             <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">

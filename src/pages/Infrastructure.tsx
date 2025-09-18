@@ -95,7 +95,7 @@ const Infrastructure: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-center">
             <div className="px-20 py-12">
-              <h2 className="text-4xl font-bold text-blue-600 mb-6">In the Field</h2>
+              <h2 className="text-4xl font-bold mb-6" style={{color: '#1769bc'}}>In the Field</h2>
               <p className="text-gray-700 text-base leading-relaxed">
                 Our field engineers coordinate with our logistics and program management teams to ensure construction that meets all our customers' specifications and timelines.
               </p>

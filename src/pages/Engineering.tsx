@@ -74,7 +74,7 @@ const Engineering: React.FC = () => {
                 Our in-house engineering teams work across the nation to design elegant and sustainable networks. They coordinate with authorities in any municipality to organize permitting and field teams to aid site acquisition and selection.
               </p>
               
-              <h2 className="text-4xl font-bold text-blue-600 mb-6">In the Field</h2>
+              <h2 className="text-4xl font-bold mb-6" style={{color: '#1769bc'}}>In the Field</h2>
               <p className="text-gray-700 text-base leading-relaxed">
                 Our field engineers coordinate with our logistics and program management teams to ensure construction that meets all our customers' specifications and timelines.
               </p>
