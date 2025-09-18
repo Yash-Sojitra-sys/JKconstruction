@@ -5,9 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "node scripts/secure-build.js",
+    "build:legacy": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "setup:deploy": "node scripts/setup-deployment.js",
+    "deploy": "node scripts/deployment-wrapper.js",
+    "deploy:vercel": "node scripts/deployment-wrapper.js vercel",
+    "deploy:netlify": "node scripts/deployment-wrapper.js netlify",
+    "deploy:github": "node scripts/deployment-wrapper.js github",
+    "deploy:direct": "node scripts/deploy-manager.js",
+    "verify:config": "node -e \"const mgr = require('./scripts/deploy-config'); new mgr().verifyDeploymentAuth(); console.log('✅ Configuration verified');\""
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
