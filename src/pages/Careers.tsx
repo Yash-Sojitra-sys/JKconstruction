@@ -12,7 +12,7 @@ const Careers: React.FC = () => {
       
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center px-6 bg-gradient-to-r from-emerald-600 to-emerald-800">
-        <div className="max-w-5xl mx-auto text-center text-white">
+        <div className="max-w-5xl mx-auto text-left text-white px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-light mb-6">Careers</h1>
           <p className="text-xl md:text-2xl opacity-90">Build Your Future With Us</p>
         </div>

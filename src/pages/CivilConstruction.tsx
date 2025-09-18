@@ -20,7 +20,7 @@ const CivilConstruction: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/40"></div>
         </div>
-        <div className="relative z-10 max-w-5xl mx-auto text-center text-white">
+        <div className="relative z-10 max-w-5xl mx-auto text-left text-white px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-light mb-6">Civil Construction</h1>
           <p className="text-xl md:text-2xl opacity-90">Building the Foundation of Tomorrow</p>
         </div>

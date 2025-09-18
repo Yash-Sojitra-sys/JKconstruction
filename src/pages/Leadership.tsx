@@ -47,7 +47,7 @@ const Leadership: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-600/80 to-slate-800/80"></div>
         </div>
-        <div className="relative z-10 max-w-5xl mx-auto text-center text-white mt-16">
+        <div className="relative z-10 max-w-5xl mx-auto text-left text-white mt-16 px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-semibold mb-6">Leadership</h1>
           <p className="text-xl md:text-2xl opacity-90">Visionary Leaders Driving Excellence</p>
         </div>

@@ -20,7 +20,7 @@ const LocatingAndSUE: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-600/80 to-slate-800/80"></div>
         </div>
-        <div className="relative z-10 max-w-7xl mx-auto text-center text-white px-6 mt-16">
+        <div className="relative z-10 max-w-7xl mx-auto text-left text-white px-4 sm:px-6 lg:px-8 mt-16">
           <h1 className="text-6xl md:text-7xl font-semibold">Locating & SUE</h1>
           <p className="text-2xl md:text-3xl font-medium mt-4">(SUB UTILITY ENQUIRY)</p>
         </div>
