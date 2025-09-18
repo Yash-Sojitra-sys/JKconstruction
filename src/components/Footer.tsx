@@ -5,10 +5,10 @@ import { IMAGES } from '../constants/images';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-5 gap-8">
-          <div className="md:col-span-1">
+    <footer className="bg-white border-t border-gray-200">
+      <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="grid md:grid-cols-6 gap-8 md:gap-12">
+          <div className="md:col-span-2">
             <Link to="/" className="flex items-center space-x-3 mb-1">
               <img 
                 src={IMAGES.LOGO.MAIN}
@@ -27,7 +27,14 @@ const Footer: React.FC = () => {
               <p className="font-medium">+91 9374701899</p>
             </div>
             <div className="flex space-x-4 mt-6">
-              <Linkedin className="w-6 h-6 text-blue-600 cursor-pointer hover:text-blue-800" />
+              <a 
+                href="https://www.linkedin.com/in/jaykrishnaconstruction/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:scale-110 transition-transform"
+              >
+                <Linkedin className="w-6 h-6 text-blue-600 cursor-pointer hover:text-blue-800" />
+              </a>
               <Youtube className="w-6 h-6 text-red-600 cursor-pointer hover:text-red-800" />
             </div>
           </div>
