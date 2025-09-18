@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
 
           {/* Company Section - Shifted more right */}
           <div className="md:ml-8 md:mt-8">
-            <h4 className="font-medium text-gray-700 mb-4 text-xl">Company</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-1">Company</h4>
             <ul className="space-y-3 text-lg text-gray-600">
               <li><Link to="/" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
               <li><Link to="/our-company" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Us</Link></li>
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
 
           {/* Services Section */}
           <div className="md:mt-8">
-            <h4 className="font-medium text-gray-700 mb-4 text-xl">Services</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-1">Services</h4>
             <ul className="space-y-3 text-lg text-gray-600">
               <li><Link to="/project-management" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Project Management</Link></li>
               <li><Link to="/wireline-construction" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireline Construction</Link></li>
@@ -81,13 +81,13 @@ const Footer: React.FC = () => {
 
           {/* Careers and Contact Section */}
           <div className="md:mt-8">
-            <h4 className="font-medium text-gray-700 mb-4 text-xl">Careers</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-1">Careers</h4>
             <ul className="space-y-3 text-lg text-gray-600 mb-8">
               <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Our Careers</Link></li>
               <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Opportunities</Link></li>
             </ul>
             
-            <h4 className="font-medium text-gray-700 mb-4 text-xl">Contact</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-1">Contact</h4>
             <ul className="space-y-3 text-lg text-gray-600">
               <li><Link to="/contact-us" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
             </ul>
