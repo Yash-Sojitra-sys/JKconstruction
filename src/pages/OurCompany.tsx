@@ -35,15 +35,41 @@ const OurCompany: React.FC = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-40" style={{backgroundColor: '#8ea1ac'}}>
-        <div className="w-full">
-          <div className="flex justify-center">
-            <img 
-              src="/images/Map/Maps.png"
-              alt="India map showing our presence"
-              className="w-full h-auto"
-            />
+      {/* Recognition & Certifications Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Recognition & Certifications</h2>
+          <p className="text-gray-600 text-lg mb-16 max-w-4xl mx-auto">
+            Our commitment to excellence has been recognized through various industry awards and certifications.
+          </p>
+          
+          <div className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-20">
+            {/* ISO 9001:2015 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 bg-blue-500 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                <span className="text-white text-2xl font-bold">ISO</span>
+              </div>
+              <h3 className="text-xl font-bold text-blue-600 mb-2">ISO 9001:2015</h3>
+              <p className="text-gray-600">Quality Management</p>
+            </div>
+
+            {/* OHSAS 18001 */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 bg-orange-500 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                <span className="text-white text-xl font-bold">OHSAS</span>
+              </div>
+              <h3 className="text-xl font-bold text-blue-600 mb-2">OHSAS 18001</h3>
+              <p className="text-gray-600">Safety Management</p>
+            </div>
+
+            {/* Excellence Award */}
+            <div className="flex flex-col items-center">
+              <div className="w-32 h-32 bg-red-500 rounded-full flex items-center justify-center mb-6 shadow-lg">
+                <span className="text-white text-xl font-bold">AWARD</span>
+              </div>
+              <h3 className="text-xl font-bold text-blue-600 mb-2">Excellence Award</h3>
+              <p className="text-gray-600">Industry Recognition</p>
+            </div>
           </div>
         </div>
       </section>
