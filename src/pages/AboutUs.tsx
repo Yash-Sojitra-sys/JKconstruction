@@ -24,8 +24,8 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-7xl mx-auto px-6">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <h2 className="text-4xl font-bold text-blue-600 mb-6">About Us</h2>
@@ -109,8 +109,8 @@ const AboutUs: React.FC = () => {
       </section>
 
       {/* Our Values Section */}
-      <section className="py-20 px-4 bg-white">
-        <div className="max-w-full mx-auto px-4">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-start">
             <div>
               <h2 className="text-4xl font-bold text-blue-600 mb-8">Our Values</h2>

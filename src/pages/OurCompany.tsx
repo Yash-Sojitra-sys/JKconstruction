@@ -26,8 +26,8 @@ const OurCompany: React.FC = () => {
       </section>
 
       {/* Accelerating Speed Section */}
-      <section className="py-16 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-8">Accelerating speed and capacity</h2>
           <p className="text-gray-700 text-lg leading-relaxed max-w-5xl">
             The reach of our expansive group of companies is built on our deep relationships with leading service providers. Intensely focused on safety and quality, and located in every region, our teams are ready with skilled personnel and state of art equipment and tooling. No matter the scope of work or promised deadline, find a JKC partner to match your needs.
@@ -36,8 +36,8 @@ const OurCompany: React.FC = () => {
       </section>
 
       {/* Company Profile Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div>
@@ -63,8 +63,8 @@ const OurCompany: React.FC = () => {
       </section>
 
       {/* Recognition & Certifications Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-7xl mx-auto text-center">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Recognition & Certifications</h2>
           <p className="text-gray-500 text-xl mb-16 max-w-4xl mx-auto">
             Our commitment to excellence has been recognized through various industry awards and certifications.

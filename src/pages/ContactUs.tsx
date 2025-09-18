@@ -105,7 +105,7 @@ const ContactUs: React.FC = () => {
       </section>
 
       {/* Contact Form Section */}
-      <section className="py-16 px-6">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Left Column - Form */}
@@ -297,8 +297,8 @@ const ContactUs: React.FC = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-16 px-6 bg-gray-100">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 mb-4 text-left leading-tight">Services</h2>
           
           {/* First Row - 3 Services */}
