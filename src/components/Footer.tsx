@@ -7,13 +7,13 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-6 gap-8 md:gap-12">
+        <div className="grid md:grid-cols-7 gap-6 md:gap-10">
           <div className="md:col-span-2">
             <Link to="/" className="flex items-center space-x-3 mb-1">
               <img 
                 src={IMAGES.LOGO.MAIN}
                 alt="JKC Logo"
-                className="w-32 h-32 object-contain"
+                className="w-40 h-40 object-contain"
               />
               <span className="text-3xl font-bold text-gray-900"></span>
             </Link>
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <div>
+          <div className="md:ml-8">
             <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Company</h4>
             <ul className="space-y-2 text-sm sm:text-base text-gray-600">
               <li><Link to="/" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="md:ml-4">
             <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Services</h4>
             <ul className="space-y-2 text-sm sm:text-base text-gray-600">
               <li><Link to="/wireline-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireline Construction</Link></li>
@@ -64,22 +64,29 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          <div>
-            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Careers</h4>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
-              <li><Link to="/connect-to-our-careers" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Connect to Our Careers</Link></li>
-            </ul>
+          <div className="flex flex-col">
+            <div className="mb-8">
+              <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Careers</h4>
+              <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+                <li><Link to="/connect-to-our-careers" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Connect to Our Careers</Link></li>
+              </ul>
+            </div>
             
-            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Contact</h4>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
-              <li><Link to="/contact-us" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
-            </ul>
+            <div>
+              <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg">Contact</h4>
+              <ul className="space-y-2 text-sm sm:text-base text-gray-600">
+                <li><Link to="/contact-us" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
+              </ul>
+            </div>
           </div>
+
+          <div className="md:col-span-1"></div>
+
         </div>
 
         <div className="border-t border-gray-200 mt-16 pt-10">
           <p className="text-center text-sm sm:text-base text-gray-500">
-            © 2025 Jay Krishna Construction | Privacy Policy | Terms of Use
+            &copy; 2025 Jay Krishna Construction | Privacy Policy | Terms of Use
           </p>
         </div>
       </div>

@@ -71,7 +71,7 @@ const Home: React.FC = () => {
                 JKC(Jay Krishna Construction) is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
               </p>
               <p className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8">
-                Our talented workforce of over 7,000 employees provides a wide array of specialty services including program management; planning; engineering and design; aerial, underground, and wireless construction; maintenance; and fulfillment services. Additionally, we provide underground facility locating services for various utilities, including telecommunications providers, and other construction and maintenance services for electric and gas utilities.
+                Our talented workforce of many employees provides a wide array of specialty services including program management; planning; engineering and design; aerial, underground, and wireless construction, maintenance and fulfillment services. Additionally, we provide underground facility locating services for various utilities, including telecommunications providers, and other construction and maintenance services for electric and gas utilities.
               </p>
             </div>
             <button 
@@ -103,7 +103,7 @@ const Home: React.FC = () => {
               </h2>
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-white text-sm sm:text-base lg:text-lg leading-relaxed opacity-90 mb-4 sm:mb-6">
-                  Embracing a common vision of connecting India, JKC proudly builds networks and partnerships nationwide. Our engaged workforce is key to meeting the needs of our customers by bringing and keeping communities online and connected. We live by our values at JKC. They guide our interactions with each other, with our customers, and with the communities where we live and work.
+                  Embracing a common vision of connecting worldwide, JKC proudly builds networks and partnerships nationwide. Our engaged workforce is key to meeting the needs of our customers by bringing and keeping communities online and connected. We live by our values at JKC. They guide our interactions with each other, with our customers, and with the communities where we live and work.
                 </p>
               </div>
               <button 
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Wireline Construction</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Wireline Construction</h3>
               </div>
               
               {/* Hover Description */}
@@ -159,7 +159,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Wireless Construction</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Wireless Construction</h3>
               </div>
               
               {/* Hover Description */}
@@ -180,7 +180,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Locating</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Locating</h3>
               </div>
               
               {/* Hover Description */}
@@ -204,7 +204,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Engineering</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Engineering</h3>
               </div>
               
               {/* Hover Description */}
@@ -225,7 +225,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Fulfillment</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Fulfillment</h3>
               </div>
               
               {/* Hover Description */}
@@ -246,7 +246,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Maintenance & Restoration</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Maintenance & Restoration</h3>
               </div>
               
               {/* Hover Description */}
@@ -267,7 +267,7 @@ const Home: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Project Management</h3>
+                <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-1 sm:mb-2">Project Management</h3>
               </div>
               
               {/* Hover Description */}
