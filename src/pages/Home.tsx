@@ -60,8 +60,8 @@ const Home: React.FC = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-6">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 sm:mb-8" style={{color: '#1769bc'}}>
               In the Air and Underground
@@ -126,8 +126,8 @@ const Home: React.FC = () => {
       <ConnectionSection />
       
       {/* Services Section */}
-      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
-        <div className="max-w-6xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 bg-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 sm:mb-8 lg:mb-10 text-left leading-tight" style={{color: '#1769bc'}}>Services</h2>
           
           {/* First Row - 3 Services */}
