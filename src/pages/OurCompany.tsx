@@ -94,7 +94,7 @@ const OurCompany: React.FC = () => {
 
             {/* OHSAS 18001 */}
             <div className="flex flex-col items-center">
-              <div className="w-32 h-32 bg-orange-500 rounded-full flex items-center justify-center mb-6 shadow-lg">
+              <div className="w-32 h-32 rounded-full flex items-center justify-center mb-6 shadow-lg" style={{backgroundColor: '#c38e30'}}>
                 <span className="text-white text-xl font-bold">OHSAS</span>
               </div>
               <h3 className="text-xl font-bold text-blue-600 mb-2">OHSAS 18001</h3>
