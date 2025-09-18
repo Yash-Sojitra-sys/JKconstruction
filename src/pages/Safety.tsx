@@ -52,9 +52,7 @@ const Safety: React.FC = () => {
                 (SMS)
               </h3>
               <p className="text-lg mb-8 leading-relaxed">
-                Headway, JKC's SMS, is the preferred path when mitigating risk<br/>
-                on the job. Our multi-step strategy and intensive training empowers all<br/>
-                our workforce to recognize and enforce instinctive safety techniques.
+                Headway, JKC's SMS, is the preferred path when mitigating risk on the job. Our multi-step strategy and intensive training empowers all our workforce to recognize and enforce instinctive safety techniques.
               </p>
               <div className="flex justify-center mb-16">
                 <img 

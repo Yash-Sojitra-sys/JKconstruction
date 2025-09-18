@@ -20,7 +20,7 @@ const Sustainability: React.FC = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-slate-600/80 to-slate-800/80"></div>
         </div>
-        <div className="relative z-10 max-w-5xl mx-auto text-center text-white mt-16">
+        <div className="relative z-10 max-w-5xl mx-auto text-left text-white mt-16 px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl md:text-6xl font-semibold mb-6">Our Commitment to Sustainability</h1>
           <p className="text-xl md:text-2xl opacity-90">Building a Sustainable Future</p>
         </div>
@@ -65,7 +65,7 @@ const Sustainability: React.FC = () => {
               <div className="absolute inset-0 bg-green-600/85"></div>
               <div className="relative z-10 text-center">
                 <h3 className="text-2xl font-bold mb-4">Safety</h3>
-                <p className="text-sm leading-relaxed">
+                <p className="text-base leading-relaxed">
                   We strive to ensure the highest level of protection for our employees, customers, and the community in which we operate by fostering an instinctually safe culture.
                 </p>
               </div>
@@ -82,7 +82,7 @@ const Sustainability: React.FC = () => {
               <div className="absolute inset-0 bg-green-600/85"></div>
               <div className="relative z-10 text-center">
                 <h3 className="text-2xl font-bold mb-4">People</h3>
-                <p className="text-sm leading-relaxed">
+                <p className="text-base leading-relaxed">
                   Employees are our most important resource and are at the heart of everything we do. We strive every day to create the right environment for them to grow their skills, work collaboratively, and deliver our services at the highest quality to our customers.
                 </p>
               </div>
@@ -99,7 +99,7 @@ const Sustainability: React.FC = () => {
               <div className="absolute inset-0 bg-green-600/85"></div>
               <div className="relative z-10 text-center">
                 <h3 className="text-2xl font-bold mb-4">Environment</h3>
-                <p className="text-sm leading-relaxed">
+                <p className="text-base leading-relaxed">
                   Working together, we strive to continually reduce our environmental impact by embracing advancements in sustainable technologies optimized by our core business practices and a highly skilled workforce.
                 </p>
               </div>
@@ -116,7 +116,7 @@ const Sustainability: React.FC = () => {
               <div className="absolute inset-0 bg-green-600/85"></div>
               <div className="relative z-10 text-center">
                 <h3 className="text-2xl font-bold mb-4">Business Practices</h3>
-                <p className="text-sm leading-relaxed">
+                <p className="text-base leading-relaxed">
                   Strong corporate governance and risk management practices underpin everything that we do, enabling us to serve our stakeholders in the most responsible manner.
                 </p>
               </div>

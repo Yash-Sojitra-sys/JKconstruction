@@ -32,10 +32,7 @@ const Quality: React.FC = () => {
             <div>
               <div className="mb-6"></div>
               <h2 className="text-3xl md:text-4xl font-bold text-blue-600 leading-tight">
-                At JKC, We<br/>
-                Prioritize Doing<br/>
-                Things the<br/>
-                RIGHTPATH
+                At JKC, We Prioritize Doing Things the RIGHTPATH
               </h2>
               <div className="mb-8"></div>
               
