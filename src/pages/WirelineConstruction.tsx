@@ -73,7 +73,7 @@ const WirelineConstruction: React.FC = () => {
       </section>
 
       {/* Spacing */}
-      <div className="py-2"></div>
+      <div className="py-0"></div>
 
       {/* Underground Construction Section */}
       <section>
