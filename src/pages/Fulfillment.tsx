@@ -29,7 +29,7 @@ const Fulfillment: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-end">
-            <div className="px-20 py-20 pb-24">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-5xl font-bold text-blue-600 mb-6">Installation and Fulfillment</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 JKC provides fulfillment services including complete in-home and drop installations, as well as repair and maintenance of broadband networks. Our highly trained employees deliver service to customers quickly, professionally, and consistently.

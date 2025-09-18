@@ -29,7 +29,7 @@ const WirelessConstruction: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-end">
-            <div className="px-20 py-20 pb-24">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 JKC is an expert in wireless communications construction. We complete<br/>
                 projects of any size, from macro cells to small cells, for 4G and 5G networks.
@@ -88,7 +88,7 @@ const WirelessConstruction: React.FC = () => {
             </div>
           </div>
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Cell Site Turnkey Contractor</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 JKC can oversee every aspect of the tower cell tower construction process and successfully manage projects for major wireless carriers and broadband service providers nationally.
@@ -108,7 +108,7 @@ const WirelessConstruction: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">New Site Builds and Site Modifications / Upgrades</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 JKC offers full turnkey solutions for new site development, with in-house capabilities and expertise to ensure we deliver to our wireless customers' expectations. Our services include new build for major mobile carriers, raw land cell tower sites, site compound extensions, outdoor cabinet installation and wiring, shelter installation and refurbishment, telecom tower foundation drilling and tower erection.
@@ -155,7 +155,7 @@ const WirelessConstruction: React.FC = () => {
             </div>
           </div>
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Small Cell & COW/COLT/NOW Deployments</h2>
               <p className="text-gray-700 text-base leading-relaxed">
                 Telecommunications coverage in areas with limited access will require solutions with smaller footprints and rapid deployment. JKC is experienced in small cells and temporary telecom towers to cover these areas, including Cell on Wheel (COW) deployments, Cell on Light Trailer (COLT) deployments and Node on Wheels (NOW) deployments.
@@ -172,7 +172,7 @@ const WirelessConstruction: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Commissioning and Integration</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-8">
                 JKC's team of experts has the knowledge and certifications needed to commission and integrate this equipment for a successful site launch.

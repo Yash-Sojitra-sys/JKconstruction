@@ -29,7 +29,7 @@ const WirelineConstruction: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-center">
-            <div className="px-20 py-16">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 We are your communications construction partner. Across the nation, we complete projects with our workers' talents augmented by our enterprise technology tools. Our local knowledge and national reach make JKC a trusted construction partner.
               </p>
@@ -92,7 +92,7 @@ const WirelineConstruction: React.FC = () => {
             </div>
           </div>
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Underground</h2>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -128,7 +128,7 @@ const WirelineConstruction: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <p className="text-gray-700 text-base leading-relaxed mb-2">
                 Whether it is a new network installation or an existing network upgrade our
               </p>
@@ -193,7 +193,7 @@ const WirelineConstruction: React.FC = () => {
             </div>
           </div>
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Splicing and Activation</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 As a top-tier fiber splicing solution provider, our fiber splicing specialists use the latest technology and methods to install or upgrade existing network, including node splits, fiber hub installation, fiber splicing, coax cable splicing, and activation/certification/testing work.
@@ -213,7 +213,7 @@ const WirelineConstruction: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-center">
-            <div className="px-20 py-12">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-blue-600 mb-6">Inside Plant Construction</h2>
               <p className="text-gray-700 text-base leading-relaxed">
                 JKC's team has installed voice and data inside plant infrastructure for small, medium, and large-scale projects. We have designed, engineered, and performed numerous telecommunication and data center build-outs in campus environments. Our technicians are certified in LAN & WAN network configuration and performing moves, adds, and changes (MAC) for voice and data networks.

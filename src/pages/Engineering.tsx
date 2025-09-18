@@ -29,7 +29,7 @@ const Engineering: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-end">
-            <div className="px-20 py-16 pb-20">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-blue-600 mb-6">Effective Telecom Design</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 Creating networks of any scale requires a talent for effective design. JKC's engineers are equipped with state-of-the-art geospatial engineering tools that ensure all the critical needs of a telecom network are met.
@@ -68,7 +68,7 @@ const Engineering: React.FC = () => {
             />
           </div>
           <div className="bg-white flex items-center">
-            <div className="px-20 py-16">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-blue-600 mb-6">In the Office</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-8">
                 Our in-house engineering teams work across the nation to design elegant and sustainable networks. They coordinate with authorities in any municipality to organize permitting and field teams to aid site acquisition and selection.
