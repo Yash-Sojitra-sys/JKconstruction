@@ -46,7 +46,7 @@ const WirelineConstruction: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="relative flex items-end" style={{height: '480px'}}>
+          <div className="relative flex items-end" style={{height: '380px'}}>
             <video 
               className="w-full object-cover"
               style={{height: '340px'}}

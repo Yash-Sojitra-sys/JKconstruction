@@ -33,7 +33,7 @@ const Safety: React.FC = () => {
       {/* Employee Health & Safety Section */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-2">Employee Health & Safety</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-8">Employee Health & Safety</h2>
           <p className="text-gray-700 text-base leading-relaxed mb-12">
             At JKC, safety is more than rules and procedures – it's a mindset. We are focused on training, engaging and empowering all our employees to recognize and mitigate hazards, so everyone gets home safely.
           </p>
