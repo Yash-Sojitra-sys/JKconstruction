@@ -128,30 +128,6 @@ const ConnectToOurCareers: React.FC = () => {
         </div>
       </section>
 
-      {/* Where We Operate Section */}
-      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl font-bold text-blue-600 mb-6">Where We Operate</h2>
-              <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-                Not only do we have over 40 operating divisions and over 500 offices and warehouses 
-                located across Gujarat, India, JKC has adopted a hybrid work model for many positions, which 
-                means you can take your job anywhere, coast to coast.
-              </p>
-            </div>
-            <div className="relative flex justify-center">
-              <div className="relative w-[500px] h-[400px]">
-                <img 
-                  src="/images/Life at JKC/Photo2.png"
-                  alt="Where We Operate Map"
-                  className="w-full h-full object-contain"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Work Environment Section */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">

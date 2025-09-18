@@ -28,8 +28,8 @@ const MaintenanceAndAMC: React.FC = () => {
       {/* Video Section with Maintenance */}
       <section>
         <div className="grid md:grid-cols-2 gap-0">
-          <div className="bg-white flex items-end mx-4 sm:mx-6 lg:mx-8">
-            <div className="px-20 py-20 pb-24">
+          <div className="bg-white flex items-end">
+            <div className="px-8 sm:px-12 lg:px-16 py-20 pb-24">
               <h2 className="text-5xl font-bold text-blue-600 mb-6">Maintenance & Restoration</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 JKC is a trusted partner and relied upon to ensure the continued functioning of telecommunication networks across the country.
@@ -77,7 +77,7 @@ const MaintenanceAndAMC: React.FC = () => {
         </div>
       </section>
 
-      <div className="-mt-16">
+      <div className="-mt-32">
         <ConnectionSection />
       </div>
       <ServicesSection />
