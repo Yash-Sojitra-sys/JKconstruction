@@ -46,7 +46,7 @@ const WirelineConstruction: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="relative flex items-end" style={{height: '380px'}}>
+          <div className="relative flex items-end" style={{height: '480px'}}>
             <video 
               className="w-full object-cover"
               style={{height: '340px'}}
@@ -73,7 +73,7 @@ const WirelineConstruction: React.FC = () => {
       </section>
 
       {/* Spacing */}
-      <div className="py-8"></div>
+      <div className="py-2"></div>
 
       {/* Underground Construction Section */}
       <section>
