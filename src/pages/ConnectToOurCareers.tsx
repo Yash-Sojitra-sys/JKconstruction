@@ -129,7 +129,7 @@ const ConnectToOurCareers: React.FC = () => {
       </section>
 
       {/* Work Environment Section */}
-      <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -162,7 +162,7 @@ const ConnectToOurCareers: React.FC = () => {
       </section>
 
       {/* Jobs Section */}
-      <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-6 lg:px-8">
+      <section className="py-4 sm:py-6 lg:py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-blue-600 mb-4">Check Out These Jobs!</h2>
