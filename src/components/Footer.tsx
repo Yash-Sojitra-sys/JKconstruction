@@ -5,9 +5,9 @@ import { IMAGES } from '../constants/images';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white py-20 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
+    <footer className="bg-white py-16 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-5 gap-10">
+        <div className="grid md:grid-cols-5 gap-8">
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center space-x-3 mb-1">
               <img 
@@ -20,7 +20,8 @@ const Footer: React.FC = () => {
             <div className="text-gray-600 text-sm sm:text-base space-y-2">
               <p>Jay Krishna Construction</p>
               <p>716, Millenium Business Hub</p>
-              <p className="whitespace-nowrap">Sarthana Jakatnaka Varrachha Main Road</p>
+              <p>Sarthana Jakatnaka</p>
+              <p>Varrachha Main Road</p>
               <p>Surat, Gujarat - 395006</p>
               <p className="mt-4 font-medium">jaykrishna.surat@gmail.com</p>
               <p className="font-medium">+91 9374701899</p>
@@ -32,8 +33,8 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="font-bold text-gray-900 mb-6 text-base sm:text-lg mt-8">Company</h4>
-            <ul className="space-y-3 text-sm sm:text-base text-gray-600">
+            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Company</h4>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
               <li><Link to="/" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
               <li><Link to="/our-company" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Us</Link></li>
               <li><Link to="/our-family-of-companies" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Our Companies</Link></li>
@@ -44,8 +45,8 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="font-bold text-gray-900 mb-6 text-base sm:text-lg mt-8">Services</h4>
-            <ul className="space-y-3 text-sm sm:text-base text-gray-600">
+            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Services</h4>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
               <li><Link to="/wireline-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireline Construction</Link></li>
               <li><Link to="/wireless-construction" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Wireless Construction</Link></li>
               <li><Link to="/engineering" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Engineering</Link></li>
@@ -57,15 +58,13 @@ const Footer: React.FC = () => {
           </div>
 
           <div>
-            <h4 className="font-bold text-gray-900 mb-6 text-base sm:text-lg mt-8">Careers</h4>
-            <ul className="space-y-3 text-sm sm:text-base text-gray-600">
+            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Careers</h4>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
               <li><Link to="/connect-to-our-careers" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Connect to Our Careers</Link></li>
             </ul>
-          </div>
-
-          <div>
-            <h4 className="font-bold text-gray-900 mb-6 text-base sm:text-lg mt-8">Contact</h4>
-            <ul className="space-y-3 text-sm sm:text-base text-gray-600">
+            
+            <h4 className="font-bold text-gray-900 mb-4 text-base sm:text-lg mt-8">Contact</h4>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-600">
               <li><Link to="/contact-us" className="hover:text-blue-600 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
             </ul>
           </div>
