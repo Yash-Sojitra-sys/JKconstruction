@@ -68,7 +68,7 @@ const Home: React.FC = () => {
             </h2>
             <div className="space-y-4">
               <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-                JKC Industries, Inc. (NYSE:DY) is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
+                JKC Industries, Rutu4Ever is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
               </p>
               <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
                 Our talented workforce of over 7,000 employees provides a wide array of specialty services including program management; planning; engineering and design; aerial, underground, and wireless construction; maintenance; and fulfillment services. Additionally, we provide underground facility locating services for various utilities, including telecommunications providers, and other construction and maintenance services for electric and gas utilities.
