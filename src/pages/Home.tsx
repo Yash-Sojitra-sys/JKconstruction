@@ -51,26 +51,26 @@ const Home: React.FC = () => {
           />
         </video>
         
-        <div className="relative z-20 text-center text-white px-6 max-w-4xl mt-24">
-          <h1 className="text-5xl md:text-7xl font-semibold mb-4">
+        <div className="relative z-20 text-center text-white px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto mt-16 sm:mt-20 lg:mt-24">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-4 sm:mb-6">
             The People <span className="text-green-400 font-semibold">Building</span> Excellence
           </h1>
-          <p className="text-xl md:text-2xl mb-8 opacity-90">WORKING TOGETHER</p>
+          <p className="text-lg sm:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90">WORKING TOGETHER</p>
         </div>
       </section>
 
       {/* About Section */}
-      <section className="pt-8 pb-20 px-2 sm:px-4 lg:px-6">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto">
           <div className="space-y-6">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 leading-tight">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-600 leading-tight mb-6 sm:mb-8">
               In the Air and Underground
             </h2>
-            <div className="space-y-4">
-              <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+            <div className="space-y-4 sm:space-y-6">
+              <p className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-4 sm:mb-6">
                 JKC Industries, Inc. (NYSE:DY) is a leading provider of specialty contracting services to the telecommunications infrastructure and utility industries throughout the Gujarat, India. We supply the single most critical resource telecom service providers need: skilled people. We serve the nation from hundreds of field offices and are unparalleled in scope and scale.
               </p>
-              <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+              <p className="text-gray-700 text-sm sm:text-base lg:text-lg leading-relaxed mb-6 sm:mb-8">
                 Our talented workforce of over 7,000 employees provides a wide array of specialty services including program management; planning; engineering and design; aerial, underground, and wireless construction; maintenance; and fulfillment services. Additionally, we provide underground facility locating services for various utilities, including telecommunications providers, and other construction and maintenance services for electric and gas utilities.
               </p>
             </div>
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
                 navigate('/our-company');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="bg-blue-600 text-white px-6 sm:px-8 py-3 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors text-sm sm:text-base"
+              className="bg-blue-600 text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors text-sm sm:text-base lg:text-lg"
             >
               <span>LEARN ABOUT OUR FAMILY OF COMPANIES</span>
               <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -89,23 +89,23 @@ const Home: React.FC = () => {
       </section>
 
       {/* What We Stand For Section */}
-      <section className="relative py-20">
+      <section className="relative py-12 sm:py-16 lg:py-20">
         <div className="absolute inset-0 bg-gradient-to-r from-slate-600/80 to-slate-800/80"></div>
         <img 
           src={IMAGES.GALLERY.CONSTRUCTION_7}
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
-        <div className="relative z-10 px-2 sm:px-4 lg:px-6">
-          <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-6 lg:gap-8 items-center">
+        <div className="relative z-10 px-4 sm:px-6 lg:px-8">
+          <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="text-white space-y-6">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light leading-tight">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light leading-tight mb-6 sm:mb-8">
                 What we <span className="text-green-400">stand for</span>
               </h2>
-              <div className="space-y-4">
-                <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
+              <div className="space-y-4 sm:space-y-6">
+                <p className="text-white text-sm sm:text-base lg:text-lg leading-relaxed opacity-90 mb-4 sm:mb-6">
                   JKC Industries stands as a cornerstone of excellence in telecommunications infrastructure development across Gujarat, India. Our commitment to innovation and quality has established us as the preferred partner for major telecom operators and utility companies. We deliver comprehensive solutions that connect communities and drive technological advancement throughout the region.
                 </p>
-                <p className="text-white text-base sm:text-lg leading-relaxed opacity-90">
+                <p className="text-white text-sm sm:text-base lg:text-lg leading-relaxed opacity-90 mb-6 sm:mb-8">
                   Through strategic partnerships and cutting-edge methodologies, we ensure every project meets the highest standards of safety, efficiency, and sustainability. Our mission to connect people extends beyond infrastructure—we build lasting relationships that foster growth, innovation, and prosperity for all stakeholders in the telecommunications ecosystem.
                 </p>
               </div>
@@ -114,7 +114,7 @@ const Home: React.FC = () => {
                   navigate('/about-us');
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="bg-green-500 text-white px-6 sm:px-8 py-3 rounded-full hover:bg-green-600 transition-colors text-sm sm:text-base"
+                className="bg-green-500 text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-full hover:bg-green-600 transition-colors text-sm sm:text-base lg:text-lg"
               >
                 About Us
               </button>
@@ -126,29 +126,29 @@ const Home: React.FC = () => {
       <ConnectionSection />
       
       {/* Services Section */}
-      <section className="py-16 px-6 bg-gray-100">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-600 mb-4 text-left leading-tight">Services</h2>
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-600 mb-6 sm:mb-8 lg:mb-10 text-left leading-tight">Services</h2>
           
           {/* First Row - 3 Services */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-3 mb-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">
             {/* Wireline Construction */}
             <div className="relative group cursor-pointer overflow-hidden rounded-lg" onClick={() => handleServiceClick('wireline')}>
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_1}
                 alt="Wireline Construction"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Wireline Construction</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Wireline Construction</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireline Construction</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Across the nation, we complete construction projects with our workers' talents augmented by our enterprise technology tools.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireline Construction</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Across the nation, we complete construction projects with our workers' talents augmented by our enterprise technology tools.</p>
                 </div>
               </div>
             </div>
@@ -158,18 +158,18 @@ const Home: React.FC = () => {
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_2}
                 alt="Wireless Construction"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Wireless Construction</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Wireless Construction</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireless Construction</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC is an expert in wireless communications construction. We complete projects of any size, from macro cells to small cells, for 4G and 5G networks.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Wireless Construction</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC is an expert in wireless communications construction. We complete projects of any size, from macro cells to small cells, for 4G and 5G networks.</p>
                 </div>
               </div>
             </div>
@@ -179,42 +179,42 @@ const Home: React.FC = () => {
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_3}
                 alt="Locating"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Locating</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Locating</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Locating</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our locating services provide the skilled workforce necessary to ensure all underground utilities are identified before work begins.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Locating</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our locating services provide the skilled workforce necessary to ensure all underground utilities are identified before work begins.</p>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Second Row - 4 Services */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-2 lg:gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             {/* Engineering */}
             <div className="relative group cursor-pointer overflow-hidden rounded-lg" onClick={() => handleServiceClick('engineering')}>
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_1}
                 alt="Engineering"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Engineering</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Engineering</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Engineering</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our engineering teams survey and design facilities for copper, coaxial and fiber networks.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Engineering</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Our engineering teams survey and design facilities for copper, coaxial and fiber networks.</p>
                 </div>
               </div>
             </div>
@@ -224,18 +224,18 @@ const Home: React.FC = () => {
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_2}
                 alt="Fulfillment"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Fulfillment</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Fulfillment</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Fulfillment</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC provides fulfillment services including complete in-home and drop installations, as well as repair and maintenance of broadband networks.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Fulfillment</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC provides fulfillment services including complete in-home and drop installations, as well as repair and maintenance of broadband networks.</p>
                 </div>
               </div>
             </div>
@@ -245,18 +245,18 @@ const Home: React.FC = () => {
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_3}
                 alt="Maintenance & Restoration"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Maintenance & Restoration</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Maintenance & Restoration</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Maintenance & Restoration</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC provides ongoing maintenance and service for telecommunication networks across the country, as well as emergency restoration services when required.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Maintenance & Restoration</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">JKC provides ongoing maintenance and service for telecommunication networks across the country, as well as emergency restoration services when required.</p>
                 </div>
               </div>
             </div>
@@ -266,18 +266,18 @@ const Home: React.FC = () => {
               <img 
                 src={IMAGES.GALLERY.CONSTRUCTION_1}
                 alt="Project Management"
-                className="w-full h-80 sm:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
+                className="w-full h-64 sm:h-80 lg:h-96 object-cover group-hover:scale-125 transition-all duration-[5000ms] ease-linear transform-gpu"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">Project Management</h3>
+              <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 text-white group-hover:opacity-0 transition-opacity duration-300">
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold mb-1 sm:mb-2">Project Management</h3>
               </div>
               
               {/* Hover Description */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-700/80 via-blue-500/40 via-blue-300/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end">
-                <div className="p-4 sm:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
-                  <h3 className="text-xl sm:text-2xl font-bold mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Project Management</h3>
-                  <p className="text-sm leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Expert project management services ensuring successful delivery of complex telecommunications and infrastructure projects on time and within budget.</p>
+                <div className="p-3 sm:p-4 lg:p-6 text-white transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 ease-out">
+                  <h3 className="text-lg sm:text-xl lg:text-2xl font-bold mb-3 sm:mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-150">Project Management</h3>
+                  <p className="text-xs sm:text-sm lg:text-base leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-300">Expert project management services ensuring successful delivery of complex telecommunications and infrastructure projects on time and within budget.</p>
                 </div>
               </div>
             </div>
