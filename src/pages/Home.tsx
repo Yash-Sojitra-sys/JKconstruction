@@ -53,7 +53,7 @@ const Home: React.FC = () => {
         
         <div className="relative z-20 text-center text-white px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto mt-16 sm:mt-20 lg:mt-24">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-4 sm:mb-6">
-            The People <span className="text-green-400 font-semibold">Building</span> Excellence
+            The People <span className="font-semibold" style={{color: '#76bc21'}}>Building</span> Excellence
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl mb-6 sm:mb-8 opacity-90">WORKING TOGETHER</p>
         </div>
@@ -63,7 +63,7 @@ const Home: React.FC = () => {
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="space-y-6">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-600 leading-tight mb-6 sm:mb-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight mb-6 sm:mb-8" style={{color: '#1769bc'}}>
               In the Air and Underground
             </h2>
             <div className="space-y-4 sm:space-y-6">
@@ -79,7 +79,10 @@ const Home: React.FC = () => {
                 navigate('/our-company');
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="bg-blue-600 text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-full flex items-center space-x-2 hover:bg-blue-700 transition-colors text-sm sm:text-base lg:text-lg"
+              className="text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-full flex items-center space-x-2 transition-colors text-sm sm:text-base lg:text-lg"
+              style={{backgroundColor: '#1769bc'}}
+              onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0f5aa3'}
+              onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#1769bc'}
             >
               <span>LEARN ABOUT OUR FAMILY OF COMPANIES</span>
               <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -125,7 +128,7 @@ const Home: React.FC = () => {
       {/* Services Section */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-blue-600 mb-6 sm:mb-8 lg:mb-10 text-left leading-tight">Services</h2>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 sm:mb-8 lg:mb-10 text-left leading-tight" style={{color: '#1769bc'}}>Services</h2>
           
           {/* First Row - 3 Services */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mb-6 sm:mb-8">

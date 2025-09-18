@@ -116,14 +116,14 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
             }`}>
               <Link 
                 to="/" 
-                className="block text-gray-800 text-2xl font-light hover:text-blue-600 transition-colors py-1 relative group"
+                className="block text-gray-800 text-2xl font-light hover:text-[#1769bc] transition-colors py-1 relative group"
                 onClick={() => {
                   toggleMenu();
                   window.scrollTo({top: 0, behavior: 'smooth'});
                 }}
               >
                 Home
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#1769bc] transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </div>
             
@@ -133,9 +133,9 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
             }`}>
               <div className="space-y-3">
                 <div className="flex items-center justify-between cursor-pointer py-1" onClick={() => toggleSubmenu('about')}>
-                  <span className="text-gray-800 text-2xl font-light hover:text-blue-600 transition-colors relative group">
+                  <span className="text-gray-800 text-2xl font-light hover:text-[#1769bc] transition-colors relative group">
                     About Us
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#1769bc] transition-all duration-300 group-hover:w-full"></span>
                   </span>
                   <ChevronDown className={`w-5 h-5 text-gray-600 transform transition-transform duration-300 ${
                     expandedMenus.about ? 'rotate-180' : ''
@@ -147,7 +147,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                   <div className="ml-6 space-y-2 text-base text-gray-600 pt-2">
                     <Link 
                       to="/our-company" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -157,7 +157,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/safety" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -167,7 +167,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/quality" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -177,7 +177,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/sustainability" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -196,9 +196,9 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
             }`}>
               <div className="space-y-3">
                 <div className="flex items-center justify-between cursor-pointer py-1" onClick={() => toggleSubmenu('services')}>
-                  <span className="text-gray-800 text-2xl font-light hover:text-blue-600 transition-colors relative group">
+                  <span className="text-gray-800 text-2xl font-light hover:text-[#1769bc] transition-colors relative group">
                     What We Do
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#1769bc] transition-all duration-300 group-hover:w-full"></span>
                   </span>
                   <ChevronDown className={`w-5 h-5 text-gray-600 transform transition-transform duration-300 ${
                     expandedMenus.services ? 'rotate-180' : ''
@@ -210,7 +210,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                   <div className="ml-6 space-y-2 text-base text-gray-600 pt-2">
                     <Link 
                       to="/wireline-construction" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -220,7 +220,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/wireless-construction" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -230,7 +230,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/engineering" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -240,7 +240,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/fulfillment" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -250,7 +250,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/locating-and-sue" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -260,7 +260,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/project-management" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -270,7 +270,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                     </Link>
                     <Link 
                       to="/maintenance-and-amc" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -289,9 +289,9 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
             }`}>
               <div className="space-y-3">
                 <div className="flex items-center justify-between cursor-pointer py-2" onClick={() => toggleSubmenu('careers')}>
-                  <span className="text-gray-800 text-2xl font-light hover:text-blue-600 transition-colors relative group">
+                  <span className="text-gray-800 text-2xl font-light hover:text-[#1769bc] transition-colors relative group">
                     Careers
-                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                    <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#1769bc] transition-all duration-300 group-hover:w-full"></span>
                   </span>
                   <ChevronDown className={`w-5 h-5 text-gray-600 transform transition-transform duration-300 ${
                     expandedMenus.careers ? 'rotate-180' : ''
@@ -303,7 +303,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
                   <div className="ml-6 space-y-3 text-base text-gray-600 pt-3">
                     <Link 
                       to="/connect-to-our-careers" 
-                      className="block hover:text-blue-600 transition-colors transform transition-transform duration-300 hover:translate-x-1"
+                      className="block hover:text-[#1769bc] transition-colors transform transition-transform duration-300 hover:translate-x-1"
                       onClick={() => {
                         toggleMenu();
                         window.scrollTo({top: 0, behavior: 'smooth'});
@@ -322,14 +322,14 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
             }`}>
               <Link 
                 to="/contact-us" 
-                className="block text-gray-800 text-2xl font-light hover:text-blue-600 transition-colors py-1 relative group"
+                className="block text-gray-800 text-2xl font-light hover:text-[#1769bc] transition-colors py-1 relative group"
                 onClick={() => {
                   toggleMenu();
                   window.scrollTo({top: 0, behavior: 'smooth'});
                 }}
               >
                 Contact Us
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-blue-600 transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#1769bc] transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </div>
           </nav>
@@ -338,7 +338,7 @@ const Header: React.FC<HeaderProps> = ({ isTransparent = false }) => {
             isMenuOpen ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0'
           }`}>
             <div className="text-gray-700 space-y-2">
-              <p className="font-semibold text-base text-blue-600">Jay Krishna Construction</p>
+              <p className="font-semibold text-base text-[#1769bc]">Jay Krishna Construction</p>
               <div className="text-gray-600 space-y-1 text-sm">
                 <p>716, Millenium Business Hub</p>
                 <p>Sarthana Jakatnaka Varachha Main Road</p>
