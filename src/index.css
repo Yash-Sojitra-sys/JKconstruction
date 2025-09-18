@@ -1,8 +1,8 @@
+@import './styles/custom-colors.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import './styles/custom-colors.css';
 
 /* Hide scrollbar while keeping scroll functionality */
 .scrollbar-hide {

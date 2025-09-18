@@ -140,19 +140,18 @@ const Safety: React.FC = () => {
       {/* A.L.W.A.Y.S. Section */}
       <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
         <div className="max-w-6xl mx-auto text-center">
-            <div className="mb-6"></div>
-            <h2 className="text-5xl font-bold text-blue-600 mb-5">A.L.W.A.Y.S.</h2>
-            <p className="text-gray-700 text-lg leading-relaxed mb-5">
-              We believe that to create a best-in-class safety program, all employees must commit to a core list of safeguards. The safeguards are designed to protect against the most common causes of severe injury. They are foundational to our safety culture.
-            </p>
-            <button 
-              onClick={() => setIsAlwaysModalOpen(true)}
-              className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors font-semibold"
-            >
-              CLICK TO VIEW
-            </button>
-            <div className="mb-6"></div>
-          </div>
+          <div className="mb-6"></div>
+          <h2 className="text-5xl font-bold text-blue-600 mb-5">A.L.W.A.Y.S.</h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-5">
+            We believe that to create a best-in-class safety program, all employees must commit to a core list of safeguards. The safeguards are designed to protect against the most common causes of severe injury. They are foundational to our safety culture.
+          </p>
+          <button 
+            onClick={() => setIsAlwaysModalOpen(true)}
+            className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors font-semibold"
+          >
+            CLICK TO VIEW
+          </button>
+          <div className="mb-6"></div>
         </div>
       </section>
 
