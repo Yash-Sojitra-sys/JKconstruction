@@ -64,14 +64,14 @@ const ConnectToOurCareers: React.FC = () => {
       </section>
 
       {/* Connect to Your Next Opportunity Section */}
-      <section className="bg-blue-600 py-12">
+      <section className="bg-blue-600 py-12 sm:py-16 lg:py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white">Connect to Your Next Opportunity</h2>
         </div>
       </section>
 
       {/* Combined What we stand for and Values Section */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 items-start">
             <div className="space-y-12">
@@ -129,7 +129,7 @@ const ConnectToOurCareers: React.FC = () => {
       </section>
 
       {/* Where We Operate Section */}
-      <section className="py-12 px-4 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -154,7 +154,7 @@ const ConnectToOurCareers: React.FC = () => {
       </section>
 
       {/* Work Environment Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative">
@@ -188,7 +188,7 @@ const ConnectToOurCareers: React.FC = () => {
 
 
       {/* Jobs Section */}
-      <section className="py-16 px-6">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-blue-600 mb-4">Check Out These Jobs!</h2>

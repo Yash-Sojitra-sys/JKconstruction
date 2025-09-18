@@ -29,7 +29,7 @@ const ProjectManagement: React.FC = () => {
       <section>
         <div className="grid md:grid-cols-2 gap-0">
           <div className="bg-white flex items-end">
-            <div className="px-20 py-20 pb-24">
+            <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-5xl font-bold text-blue-600 mb-6">Turnkey Project Management</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">
                 From the smallest town to the largest city, we manage telecommunications projects that connect Gujarat, India. We engineer all types of networks from fiber to 5G, perform locates prior to excavation, obtain permits before work begins, and construct and maintain high quality and dependable networks.
