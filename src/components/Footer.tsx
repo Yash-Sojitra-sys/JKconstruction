@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Company Section - Shifted more right */}
-          <div className="md:ml-8">
+          <div className="md:ml-8 md:mt-8">
             <h4 className="font-medium text-gray-700 mb-4 text-xl">Company</h4>
             <ul className="space-y-3 text-lg text-gray-600">
               <li><Link to="/" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Home</Link></li>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Services Section */}
-          <div>
+          <div className="md:mt-8">
             <h4 className="font-medium text-gray-700 mb-4 text-xl">Services</h4>
             <ul className="space-y-3 text-lg text-gray-600">
               <li><Link to="/project-management" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Project Management</Link></li>
@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Careers and Contact Section */}
-          <div>
+          <div className="md:mt-8">
             <h4 className="font-medium text-gray-700 mb-4 text-xl">Careers</h4>
             <ul className="space-y-3 text-lg text-gray-600 mb-8">
               <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Our Careers</Link></li>
@@ -99,7 +99,7 @@ const Footer: React.FC = () => {
       {/* Bottom Section */}
       <div className="bg-gray-600 py-4">
         <div className="w-full">
-          <p className="text-left text-base text-white pl-0 ml-0">
+          <p className="text-left text-base text-white pl-8 ml-0">
             © 2025 Jay Krishna Construction | Privacy Policy | Terms of Use
           </p>
         </div>
