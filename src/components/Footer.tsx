@@ -61,10 +61,6 @@ const Footer: React.FC = () => {
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
               </Link></li>
               <li><Link to="/our-company" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-                About Us
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link to="/our-company" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                 Our Company
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
               </Link></li>
@@ -124,10 +120,6 @@ const Footer: React.FC = () => {
             <ul className="space-y-3 text-lg text-gray-600 mb-8 mt-2">
               <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                 About Our Careers
-                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
-              </Link></li>
-              <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-                Opportunities
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
               </Link></li>
             </ul>
