@@ -120,15 +120,24 @@ const Footer: React.FC = () => {
 
           {/* Careers and Contact Section */}
           <div className="md:mt-8">
-            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-5">Careers</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-5 hover:text-gray-500 transition-colors duration-300 cursor-pointer">Careers</h4>
             <ul className="space-y-3 text-lg text-gray-600 mb-8 mt-2">
-              <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>About Our Careers</Link></li>
-              <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Opportunities</Link></li>
+              <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                About Our Careers
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
+              <li><Link to="/connect-to-our-careers" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Opportunities
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
             </ul>
             
-            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-3">Contact</h4>
+            <h4 className="font-medium text-gray-700 mb-4 text-xl -mt-3 hover:text-gray-500 transition-colors duration-300 cursor-pointer">Contact</h4>
             <ul className="space-y-3 text-lg text-gray-600">
-              <li><Link to="/contact-us" className="hover:text-gray-800 transition-colors" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Contact Us</Link></li>
+              <li><Link to="/contact-us" className="hover:text-gray-800 transition-colors relative group" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                Contact Us
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gray-800 transition-all duration-300 group-hover:w-full"></span>
+              </Link></li>
             </ul>
           </div>
 
