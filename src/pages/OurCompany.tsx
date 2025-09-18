@@ -35,11 +35,50 @@ const OurCompany: React.FC = () => {
         </div>
       </section>
 
+      {/* Company Profile Section */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div>
+              <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-8">Company Profile</h2>
+              <p className="text-gray-700 text-lg leading-relaxed mb-8">
+                Jay Krishna Construction stands as a beacon of excellence in India's construction industry. With over 20 years of experience, we have established ourselves as a premier construction company specializing in infrastructure development, residential projects, and commercial construction.
+              </p>
+              <p className="text-gray-700 text-lg leading-relaxed mb-12">
+                Our company operates across multiple states in India, with headoffice in Surat, Gujarat, serving a diverse clientele across multiple states.
+              </p>
+              
+              {/* Stats */}
+              <div className="flex gap-16">
+                <div>
+                  <h3 className="text-4xl font-bold text-blue-600 mb-2">250+</h3>
+                  <p className="text-gray-600 text-lg">Projects Completed</p>
+                </div>
+                <div>
+                  <h3 className="text-4xl font-bold text-blue-600 mb-2">500+</h3>
+                  <p className="text-gray-600 text-lg">Employees</p>
+                </div>
+              </div>
+            </div>
+            
+            {/* Right Image */}
+            <div>
+              <img 
+                src={IMAGES.GALLERY.CONSTRUCTION_1}
+                alt="Construction work in progress"
+                className="w-full h-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Recognition & Certifications Section */}
       <section className="py-20 px-6 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-blue-600 mb-4">Recognition & Certifications</h2>
-          <p className="text-gray-600 text-lg mb-16 max-w-4xl mx-auto">
+          <p className="text-gray-500 text-xl mb-16 max-w-4xl mx-auto">
             Our commitment to excellence has been recognized through various industry awards and certifications.
           </p>
           
