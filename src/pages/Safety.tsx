@@ -43,7 +43,7 @@ const Safety: React.FC = () => {
       {/* SMS Sections - Continuous Background */}
       <section>
         <div className="grid md:grid-cols-2 gap-0">
-          <div className="text-center text-white" style={{backgroundColor: '#8ea1ac'}}>
+          <div className="text-center text-white mx-4 sm:mx-6 lg:mx-8" style={{backgroundColor: '#8ea1ac'}}>
             <div className="px-20 py-8">
               <div className="mb-96"></div>
               <h3 className="text-4xl font-bold mb-6 leading-tight">
@@ -63,7 +63,7 @@ const Safety: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white">
+          <div className="bg-white mx-4 sm:mx-6 lg:mx-8">
             {/* Commit & Lead */}
             <div className="py-4" style={{minHeight: '300px'}}>
               <div className="px-20">
