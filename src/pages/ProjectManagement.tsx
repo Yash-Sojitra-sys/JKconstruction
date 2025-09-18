@@ -27,8 +27,8 @@ const ProjectManagement: React.FC = () => {
 
       {/* Video Section with Project Management */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-end">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-end mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-5xl font-bold text-blue-600 mb-6">Turnkey Project Management</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">

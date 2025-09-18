@@ -27,8 +27,8 @@ const MaintenanceAndAMC: React.FC = () => {
 
       {/* Video Section with Maintenance */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-end">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-end mx-4 sm:mx-6 lg:mx-8">
             <div className="px-20 py-20 pb-24">
               <h2 className="text-5xl font-bold text-blue-600 mb-6">Maintenance & Restoration</h2>
               <p className="text-gray-700 text-lg leading-relaxed mb-6">

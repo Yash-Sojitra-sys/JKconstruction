@@ -27,8 +27,8 @@ const WirelineConstruction: React.FC = () => {
 
       {/* Video Section with Outside Plant Construction */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-center">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 We are your communications construction partner. Across the nation, we complete projects with our workers' talents augmented by our enterprise technology tools. Our local knowledge and national reach make JKC a trusted construction partner.
@@ -74,7 +74,7 @@ const WirelineConstruction: React.FC = () => {
 
       {/* Underground Construction Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
+        <div className="grid md:grid-cols-2 gap-0">
           <div className="relative">
             <img 
               src={IMAGES.GALLERY.CONSTRUCTION_5}
@@ -88,7 +88,7 @@ const WirelineConstruction: React.FC = () => {
               <h3 className="text-3xl font-bold">Construction</h3>
             </div>
           </div>
-          <div className="bg-white flex items-center">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Underground</h2>
               <div className="grid md:grid-cols-2 gap-8">
@@ -123,8 +123,8 @@ const WirelineConstruction: React.FC = () => {
 
       {/* Aerial Construction Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-center">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <p className="text-gray-700 text-base leading-relaxed mb-2">
                 Whether it is a new network installation or an existing network upgrade our
@@ -176,7 +176,7 @@ const WirelineConstruction: React.FC = () => {
 
       {/* Splicing and Activation Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
+        <div className="grid md:grid-cols-2 gap-0">
           <div className="relative">
             <img 
               src={IMAGES.GALLERY.CONSTRUCTION_8}
@@ -189,7 +189,7 @@ const WirelineConstruction: React.FC = () => {
               <h3 className="text-3xl font-bold">Splicing</h3>
             </div>
           </div>
-          <div className="bg-white flex items-center">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Splicing and Activation</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
@@ -208,8 +208,8 @@ const WirelineConstruction: React.FC = () => {
 
       {/* Inside Plant Construction Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-center">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-blue-600 mb-6">Inside Plant Construction</h2>
               <p className="text-gray-700 text-base leading-relaxed">

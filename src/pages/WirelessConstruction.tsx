@@ -27,8 +27,8 @@ const WirelessConstruction: React.FC = () => {
 
       {/* Video Section with Wireless Construction */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-end">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-end mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <p className="text-gray-700 text-base leading-relaxed mb-6">
                 JKC is an expert in wireless communications construction. We complete<br/>
@@ -73,7 +73,7 @@ const WirelessConstruction: React.FC = () => {
 
       {/* Cell Site Turnkey Contractor Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
+        <div className="grid md:grid-cols-2 gap-0">
           <div className="relative">
             <img 
               src={IMAGES.GALLERY.CONSTRUCTION_2}
@@ -87,7 +87,7 @@ const WirelessConstruction: React.FC = () => {
               <h3 className="text-3xl font-bold">Contractor</h3>
             </div>
           </div>
-          <div className="bg-white flex items-center">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Cell Site Turnkey Contractor</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
@@ -106,8 +106,8 @@ const WirelessConstruction: React.FC = () => {
 
       {/* New Site Builds Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-center">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">New Site Builds and Site Modifications / Upgrades</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-6">
@@ -139,7 +139,7 @@ const WirelessConstruction: React.FC = () => {
 
       {/* Small Cell Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
+        <div className="grid md:grid-cols-2 gap-0">
           <div className="relative">
             <img 
               src={IMAGES.GALLERY.CONSTRUCTION_4}
@@ -154,7 +154,7 @@ const WirelessConstruction: React.FC = () => {
               <h3 className="text-3xl font-bold">Deployments</h3>
             </div>
           </div>
-          <div className="bg-white flex items-center">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Small Cell & COW/COLT/NOW Deployments</h2>
               <p className="text-gray-700 text-base leading-relaxed">
@@ -170,8 +170,8 @@ const WirelessConstruction: React.FC = () => {
 
       {/* Commissioning and Integration Section */}
       <section>
-        <div className="grid md:grid-cols-2 gap-0 mx-4 sm:mx-6 lg:mx-8">
-          <div className="bg-white flex items-center">
+        <div className="grid md:grid-cols-2 gap-0">
+          <div className="bg-white flex items-center mx-4 sm:mx-6 lg:mx-8">
             <div className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
               <h2 className="text-4xl font-bold text-green-600 mb-6">Commissioning and Integration</h2>
               <p className="text-gray-700 text-base leading-relaxed mb-8">
